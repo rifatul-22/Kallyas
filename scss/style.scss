@@ -10,4 +10,280 @@ ol,ul{
 a,a:hover{
     text-decoration: none;
 }
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 /* common css end  */
+/* Header section css start  */
+#header{
+    background: url(../img/banner_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 764px;
+    #nav{
+        padding-top: 36px;
+        position: relative;
+        ul{
+            margin-left: 90px;
+            li a{
+                font-size: 14px;
+                font-weight: 300;
+                color: #fff;
+                padding-right: 18px;
+                text-transform: capitalize;
+                transition: 0.3s;
+                &:hover{
+                    color: #75101c;
+                }
+            }
+        }
+        .search_form{
+            position: relative;
+            .search{
+                position: relative;
+                input{
+                    background: transparent;
+                    outline: none;
+                    border: none;
+                    border-bottom: 2px solid #75101c;
+                    position: absolute;
+                    top: 7px;
+                    left: -227px;
+                    &::placeholder{
+                        color: #75101c;
+                        font-weight: 600;
+                    }
+
+                }
+                i{
+                    position: absolute;
+                    top: 9px;
+                    right: 5px;
+                    color: #75101c;
+                }
+            }
+            a{
+                margin: 0 20px;
+                font-size: 14px;
+                font-weight: 400;
+                color: #fff;
+                text-transform: capitalize;
+                &.bot{
+                    margin-top: 12px;
+                }
+                &.a_active{
+                    padding: 13px 20px;
+                    background: #f10e1f;
+                    border-radius: 50px;
+                }
+            }
+        }
+    }
+    #banner{
+        margin-top: 56px;
+
+        .banner_content{
+            .box{
+                margin-top: 100px;
+                margin-bottom: 24px;
+                span{
+                    padding: 5px 9px;
+                    background: #f4b01e;
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #fff;
+                    margin-right: 13px;
+                }
+                p{
+                    padding: 5px 8px;
+                    background: #37a3df;
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #fff;
+                    margin-right: 13px;
+                    text-transform: uppercase;
+                    &:last-child{
+                        background: #df5f37;
+                    }
+                }
+            }
+            h1{
+                font-size: 60px;
+                font-weight: 600;
+                color: #fff;
+                text-transform: uppercase;
+                margin-bottom: 40px;
+            }
+            .para{
+                font-size: 14px;
+                font-weight: 300;
+                color: #b0b0b0;
+                line-height: 2;
+                margin-bottom: 40px;
+            }
+            .btn{
+                margin-left: -15px;
+                a{
+                    padding: 14px 20px;
+                    font-size: 12px;
+                    font-weight: 400;
+                    color: #fff;
+                    background: #000;
+                    margin-right: 22px;
+                    border-radius: 50px;
+                    transition: 0.3s;
+                    &:hover{
+                        background: #fc0f1f;
+                        box-shadow: 0 0 17px rgba(252,15,31,0.58);
+                    }
+                    i{
+                        margin-right: 10px;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+/* Header section css end  */
+/* Movie Serial section css start  */
+#serial_movie{
+    background: #020d18;
+    position: relative;
+    margin-top: -2px;
+    padding-bottom: 20px;
+    p{
+        font-size: 14px;
+        font-weight: 300;
+        color: #b0b0b0;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+    }
+    .serial_movie_center_icon{
+        .serial_movie_center_icon_btn{
+            border: none;
+            background: none;
+            position: absolute;
+            top: 70%;
+            transform: translateY(-50%);
+            z-index: 99;
+            &.prev{
+                left: 60px;
+            }
+            &.next{
+                right: 60px;
+            }
+            span{
+                i{
+                    font-size: 30px;
+                    color: #48494b;
+                    transition: 0.3s;
+                }
+            }
+        }
+    }
+    .serial_movie_center{
+        .serial_movie_center_item{
+            margin-right: 15px;
+        }
+    }
+}
+/* Movie Serial section css end  */
+/* Mission section css start  */
+#mission{
+    background: #091521;
+    padding: 62px 0;
+    .mission_img{
+        position: relative;
+        a{
+            width: 70px;
+            height: 50px;
+            position: absolute;
+            top: 50%;
+            right: 39%;
+            transform: translate(-50%, -50%);
+            i{
+                width: 70px;
+                height: 50px;
+                color: #fff;  
+                background: rgba(29,27,26,0.85);
+                border-radius: 15px;
+                text-align: center;
+                font-size: 20px;
+                line-height: 50px;
+            }
+        }
+    }
+    .mission_content{
+        .box{
+            margin-top: 62px;
+            margin-bottom: 24px;
+            margin-left: 196px;
+            span{
+                padding: 5px 9px;
+                background: #f4b01e;
+                font-size: 14px;
+                font-weight: 400;
+                color: #fff;
+                margin-right: 13px;
+            }
+            p{
+                padding: 5px 8px;
+                background: #37a3df;
+                font-size: 14px;
+                font-weight: 400;
+                color: #fff;
+                margin-right: 13px;
+                text-transform: uppercase;
+                &:last-child{
+                    background: #df5f37;
+                }
+            }
+        }
+        h1{
+            font-size: 36px;
+            font-weight: 600;
+            color: #fff;
+            text-transform: uppercase;
+            margin-bottom: 40px;
+        }
+        .para{
+            font-size: 14px;
+            font-weight: 300;
+            color: #b0b0b0;
+            line-height: 1.6;
+            margin-bottom: 40px;
+        }
+        .btn{
+            margin-left: -15px;
+            a{
+                padding: 14px 20px;
+                font-size: 12px;
+                font-weight: 400;
+                color: #fff;
+                background: #000;
+                margin-right: 22px;
+                border-radius: 50px;
+                transition: 0.3s;
+                &:hover{
+                    background: #fc0f1f;
+                    box-shadow: 0 0 17px rgba(252,15,31,0.58);
+                }
+                i{
+                    margin-right: 10px;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+/* Mission section css end  */
+/* Trand section css start  */
+#trand{
+    background: #020d18;
+    .add_img{
+        margin-top: 50px;
+        margin-bottom: 42px;
+    }
+}
+/* Trand section css end  */

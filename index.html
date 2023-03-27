@@ -4,9 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kallyas</title>
     <!-- fontawsome css link  -->
     <link rel="stylesheet" href="css/fontawsome.min.css">
+    <!-- Google Fonts Css Links  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- venobox css link  -->
+    <link rel="stylesheet" href="css/venobox.min.css">
     <!-- Bootstrap css link  -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Slick css link  -->
@@ -15,7 +21,151 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <!-- header banner section start  -->
+    <header id="header">
+        <nav class="navbar navbar-expand-lg " id="nav">
+            <div class="container">
+               <div class="logo">
+                  <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
+               </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                     <a class="nav-link" aria-current="page" href="index.html">Homepage</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" aria-current="page" href="index.html">Serials</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" aria-current="page" href="index.html">Movies</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" aria-current="page" href="index.html">Favorites</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" aria-current="page" href="index.html">my list</a>
+                  </li>
+                 
+                </ul>
+                <form class="d-flex search_form">
+                  <div class="search">
+                     <input type="text" placeholder="Search">
+                     <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+                  <a href="#" class="bot">login</a>
+                  <a href="#" class="a_active">sign up</a>
+                </form>
+              </div>
+            </div>
+        </nav>
 
+        <section id="banner">
+           <div class="container">
+               <div class="row">
+                   <div class="col-lg-6 banner_content">
+                       <div class="box d-flex">
+                           <span>2012</span>
+                           <p>ACTION</p>
+                           <p>ADVENTURE</p>
+                       </div>
+                       <h1>THE AVENGERS</h1>
+                       <p class="para">When Thor's evil brother, Loki (Tom Hiddleston), gains access to the
+                        unlimited power of the energy cube called the Tesseract, Nick Fury (Samuel L. Jackson), director of S.H.I.E.L.D., initiates a superhero recruitment effort to defeat the unprecedented threat to Earth.</p>
+                        <div class="btn">
+                           <a href="#"><i class="fa-solid fa-play"></i>PLAY TRAILER</a>
+                           <a href="#"><i class="fa-solid fa-plus"></i>ADD TO LIST</a>
+                        </div>
+                   </div>
+                   <div class="col-lg-6 text-center">
+                       <img src="img/banner_2.png" alt="">
+                   </div>
+               </div>
+           </div>
+        </section>
+    </header>
+    <!-- header banner section end  -->
+    <!-- Movie Serial section start  -->
+    <section id="serial_movie">
+       <div class="container">
+         <div class="row">
+             <p>POPULAR SERIALS</p>
+         </div>
+         <div class="row">
+            <div class="serial_movie_center_icon">
+               <button class="serial_movie_center_icon_btn prev">
+                 <span class="d-inline-block"><i class="fa-solid fa-chevron-left"></i></span>
+               </button>
+               <button class="serial_movie_center_icon_btn next">
+                 <span class="d-inline-block"><i class="fa-solid fa-chevron-right"></i></span>
+               </button>
+            </div>
+            <div class="serial_movie_center">
+               <div class="serial_movie_center_item">
+                  <img src="img/center_img_6.png" alt="" class=" img-fluid m-auto">
+               </div>
+               <div class="serial_movie_center_item">
+                  <img src="img/center_img_1.png" alt="" class=" img-fluid">
+               </div>
+               <div class="serial_movie_center_item">
+                  <img src="img/center_img_2.png" alt="" class=" img-fluid">
+               </div>
+               <div class="serial_movie_center_item">
+                  <img src="img/center_img_3.png" alt="" class=" img-fluid">
+               </div>
+               <div class="serial_movie_center_item">
+                  <img src="img/center_img_4.png" alt="" class=" img-fluid">
+               </div>
+               <div class="serial_movie_center_item">
+                  <img src="img/center_img_5.png" alt="" class=" img-fluid">
+               </div>
+               <div class="serial_movie_center_item">
+                  <img src="img/center_img_7.png" alt="" class=" img-fluid">
+               </div>
+            </div>
+         </div>
+       </div>
+    </section>
+    <!-- Movie Serial section end  -->
+    <!-- Mission section start  -->
+    <section id="mission">
+       <div class="container">
+          <div class="row">
+             <div class="col-lg-7 mission_img">
+                 <img src="img/v_img.jpg" alt="" class=" img-fluid">
+                 <a class="venobox my-video-link" data-vbtype="video" data-autoplay="true" href="https://youtu.be/GogcDtMpgMc"><i class="fas fa-play"></i></a>
+             </div>
+             <div class="col-lg-5 mission_content text-end">
+               <div class="box d-flex">
+                   <span>2012</span>
+                   <p>ACTION</p>
+                   <p>ADVENTURE</p>
+               </div>
+               <h1>MISSION : IMPOSSIBLE</h1>
+               <p class="para">Ethan Hunt and the IMF team join forces with CIA assassin August Walker to prevent a disaster of epic proportions. Arms dealer John Lark and a group of terrorists known as the Apostles plan to use three plutonium cores for a simultaneous nuclear attack on the</p>
+                <div class="btn">
+                   <a href="#"><i class="fa-solid fa-play"></i>PLAY TRAILER</a>
+                   <a href="#"><i class="fa-solid fa-plus"></i>ADD TO LIST</a>
+                </div>
+           </div>
+          </div>
+       </div>
+    </section>
+    <!-- Mission section end  -->
+    <!-- Trand section start  -->
+    <section id="trand">
+       <div class="container">
+          <div class="row">
+             <div class="col-12 add_img text-center">
+                 <img src="img/add.jpg" alt="">
+             </div>
+          </div>
+       </div>
+    </section>
+    <!-- Trand section end  -->
+     
 
     
     <!-- Jquery js link  -->
@@ -25,6 +175,8 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <!-- slick js link  -->
     <script src="js/slick.min.js"></script>
+    <!-- venobox js link  -->
+    <script src="js/venobox.min.js"></script>
     <!-- main js link  -->
     <script src="js/script.js"></script>
 </body>

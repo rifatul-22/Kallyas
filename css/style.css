@@ -13,4 +13,297 @@ a, a:hover {
   text-decoration: none;
 }
 
-/* common css end  *//*# sourceMappingURL=style.css.map */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* common css end  */
+/* Header section css start  */
+#header {
+  background: url(../img/banner_bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 764px;
+}
+#header #nav {
+  padding-top: 36px;
+  position: relative;
+}
+#header #nav ul {
+  margin-left: 90px;
+}
+#header #nav ul li a {
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  padding-right: 18px;
+  text-transform: capitalize;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+#header #nav ul li a:hover {
+  color: #75101c;
+}
+#header #nav .search_form {
+  position: relative;
+}
+#header #nav .search_form .search {
+  position: relative;
+}
+#header #nav .search_form .search input {
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #75101c;
+  position: absolute;
+  top: 7px;
+  left: -227px;
+}
+#header #nav .search_form .search input::-webkit-input-placeholder {
+  color: #75101c;
+  font-weight: 600;
+}
+#header #nav .search_form .search input::-moz-placeholder {
+  color: #75101c;
+  font-weight: 600;
+}
+#header #nav .search_form .search input:-ms-input-placeholder {
+  color: #75101c;
+  font-weight: 600;
+}
+#header #nav .search_form .search input::-ms-input-placeholder {
+  color: #75101c;
+  font-weight: 600;
+}
+#header #nav .search_form .search input::placeholder {
+  color: #75101c;
+  font-weight: 600;
+}
+#header #nav .search_form .search i {
+  position: absolute;
+  top: 9px;
+  right: 5px;
+  color: #75101c;
+}
+#header #nav .search_form a {
+  margin: 0 20px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: capitalize;
+}
+#header #nav .search_form a.bot {
+  margin-top: 12px;
+}
+#header #nav .search_form a.a_active {
+  padding: 13px 20px;
+  background: #f10e1f;
+  border-radius: 50px;
+}
+#header #banner {
+  margin-top: 56px;
+}
+#header #banner .banner_content .box {
+  margin-top: 100px;
+  margin-bottom: 24px;
+}
+#header #banner .banner_content .box span {
+  padding: 5px 9px;
+  background: #f4b01e;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  margin-right: 13px;
+}
+#header #banner .banner_content .box p {
+  padding: 5px 8px;
+  background: #37a3df;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  margin-right: 13px;
+  text-transform: uppercase;
+}
+#header #banner .banner_content .box p:last-child {
+  background: #df5f37;
+}
+#header #banner .banner_content h1 {
+  font-size: 60px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+#header #banner .banner_content .para {
+  font-size: 14px;
+  font-weight: 300;
+  color: #b0b0b0;
+  line-height: 2;
+  margin-bottom: 40px;
+}
+#header #banner .banner_content .btn {
+  margin-left: -15px;
+}
+#header #banner .banner_content .btn a {
+  padding: 14px 20px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #fff;
+  background: #000;
+  margin-right: 22px;
+  border-radius: 50px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+#header #banner .banner_content .btn a:hover {
+  background: #fc0f1f;
+  -webkit-box-shadow: 0 0 17px rgba(252, 15, 31, 0.58);
+          box-shadow: 0 0 17px rgba(252, 15, 31, 0.58);
+}
+#header #banner .banner_content .btn a i {
+  margin-right: 10px;
+  color: #fff;
+}
+
+/* Header section css end  */
+/* Movie Serial section css start  */
+#serial_movie {
+  background: #020d18;
+  position: relative;
+  margin-top: -2px;
+  padding-bottom: 20px;
+}
+#serial_movie p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #b0b0b0;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+#serial_movie .serial_movie_center_icon .serial_movie_center_icon_btn {
+  border: none;
+  background: none;
+  position: absolute;
+  top: 70%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 99;
+}
+#serial_movie .serial_movie_center_icon .serial_movie_center_icon_btn.prev {
+  left: 60px;
+}
+#serial_movie .serial_movie_center_icon .serial_movie_center_icon_btn.next {
+  right: 60px;
+}
+#serial_movie .serial_movie_center_icon .serial_movie_center_icon_btn span i {
+  font-size: 30px;
+  color: #48494b;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+#serial_movie .serial_movie_center .serial_movie_center_item {
+  margin-right: 15px;
+}
+
+/* Movie Serial section css end  */
+/* Mission section css start  */
+#mission {
+  background: #091521;
+  padding: 62px 0;
+}
+#mission .mission_img {
+  position: relative;
+}
+#mission .mission_img a {
+  width: 70px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  right: 39%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+#mission .mission_img a i {
+  width: 70px;
+  height: 50px;
+  color: #fff;
+  background: rgba(29, 27, 26, 0.85);
+  border-radius: 15px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 50px;
+}
+#mission .mission_content .box {
+  margin-top: 62px;
+  margin-bottom: 24px;
+  margin-left: 196px;
+}
+#mission .mission_content .box span {
+  padding: 5px 9px;
+  background: #f4b01e;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  margin-right: 13px;
+}
+#mission .mission_content .box p {
+  padding: 5px 8px;
+  background: #37a3df;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  margin-right: 13px;
+  text-transform: uppercase;
+}
+#mission .mission_content .box p:last-child {
+  background: #df5f37;
+}
+#mission .mission_content h1 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+#mission .mission_content .para {
+  font-size: 14px;
+  font-weight: 300;
+  color: #b0b0b0;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+#mission .mission_content .btn {
+  margin-left: -15px;
+}
+#mission .mission_content .btn a {
+  padding: 14px 20px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #fff;
+  background: #000;
+  margin-right: 22px;
+  border-radius: 50px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+#mission .mission_content .btn a:hover {
+  background: #fc0f1f;
+  -webkit-box-shadow: 0 0 17px rgba(252, 15, 31, 0.58);
+          box-shadow: 0 0 17px rgba(252, 15, 31, 0.58);
+}
+#mission .mission_content .btn a i {
+  margin-right: 10px;
+  color: #fff;
+}
+
+/* Mission section css end  */
+/* Trand section css start  */
+#trand {
+  background: #020d18;
+}
+#trand .add_img {
+  margin-top: 50px;
+  margin-bottom: 42px;
+}
+
+/* Trand section css end  *//*# sourceMappingURL=style.css.map */
