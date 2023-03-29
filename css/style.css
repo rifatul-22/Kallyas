@@ -305,5 +305,288 @@ body {
   margin-top: 50px;
   margin-bottom: 42px;
 }
+#trand .title p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #b0b0b0;
+  text-transform: uppercase;
+  margin-bottom: 34px;
+}
+#trand .serial_filter_content li {
+  padding: 8px 14px;
+  background: #151f2b;
+  font-size: 12px;
+  font-weight: 400;
+  color: #fff;
+  margin-right: 30px;
+  border-radius: 20px;
+  margin-bottom: 55px;
+}
+#trand .serial_filter_content li.f_active {
+  background: #fd0f1f;
+  color: #fff;
+}
+#trand .serial_filter .serial_filter_item {
+  width: 211px;
+  margin-right: 38px;
+}
+#trand .serial_filter .serial_filter_item .serial_filter_item_img {
+  width: 196px;
+  height: 196px;
+}
+#trand .serial_filter .serial_filter_item .serial_filter_item_body h6 {
+  font-size: 13px;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 17px;
+}
+#trand .serial_filter .serial_filter_item .serial_filter_item_body .rating span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #4c4c4c;
+}
+#trand .serial_filter .serial_filter_item .serial_filter_item_body .rating .font {
+  margin-top: 5px;
+}
+#trand .serial_filter .serial_filter_item .serial_filter_item_body .rating .font .i_1 {
+  color: #4c4c4c;
+  font-size: 10px;
+  margin-right: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+#trand .serial_filter .serial_filter_item .serial_filter_item_body .rating .font .i_1:hover {
+  color: #f4dd1e;
+}
+#trand .serial_filter .serial_filter_item .serial_filter_item_body .rating .font .rat {
+  margin-top: -5px;
+  font-size: 12px;
+  color: #f4dd1e;
+}
+#trand .load {
+  margin-top: 52px;
+  margin-bottom: 60px;
+}
+#trand .load a {
+  padding: 13px 22px;
+  background: #151f2b;
+  font-size: 12px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 15px;
+}
+#trand .load a i {
+  margin-right: 13px;
+}
 
-/* Trand section css end  *//*# sourceMappingURL=style.css.map */
+/* Trand section css end  */
+/* Jurassic section css start  */
+#jurassic {
+  background: url(../img/jurasy_bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+}
+#jurassic .jurassic_content .box {
+  margin-top: 100px;
+  margin-bottom: 24px;
+}
+#jurassic .jurassic_content .box span {
+  padding: 5px 9px;
+  background: #f4b01e;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  margin-right: 13px;
+}
+#jurassic .jurassic_content .box p {
+  padding: 5px 8px;
+  background: #37a3df;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  margin-right: 13px;
+  text-transform: uppercase;
+}
+#jurassic .jurassic_content .box p:last-child {
+  background: #df5f37;
+}
+#jurassic .jurassic_content h1 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+#jurassic .jurassic_content .para {
+  font-size: 14px;
+  font-weight: 300;
+  color: #b0b0b0;
+  line-height: 2;
+  margin-bottom: 40px;
+}
+#jurassic .jurassic_content .btn {
+  margin-left: -15px;
+}
+#jurassic .jurassic_content .btn a {
+  padding: 14px 20px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #fff;
+  background: #000;
+  margin-right: 22px;
+  border-radius: 50px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+#jurassic .jurassic_content .btn a:hover {
+  background: #fc0f1f;
+  -webkit-box-shadow: 0 0 17px rgba(252, 15, 31, 0.58);
+          box-shadow: 0 0 17px rgba(252, 15, 31, 0.58);
+}
+#jurassic .jurassic_content .btn a i {
+  margin-right: 10px;
+  color: #fff;
+}
+
+/* Jurassic section css end  */
+/* Venom section css start  */
+#venom {
+  background: url(../img/venom_bg.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 65px 0;
+}
+#venom .venom_img {
+  position: relative;
+}
+#venom .venom_img a {
+  width: 70px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  right: 39%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+#venom .venom_img a i {
+  width: 70px;
+  height: 50px;
+  color: #fff;
+  background: rgba(29, 27, 26, 0.85);
+  border-radius: 15px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 50px;
+}
+#venom .venom_content .box {
+  margin-top: 62px;
+  margin-bottom: 24px;
+  margin-left: 196px;
+}
+#venom .venom_content .box span {
+  padding: 5px 9px;
+  background: #f4b01e;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  margin-right: 13px;
+}
+#venom .venom_content .box p {
+  padding: 5px 8px;
+  background: #37a3df;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  margin-right: 13px;
+  text-transform: uppercase;
+}
+#venom .venom_content .box p:last-child {
+  background: #df5f37;
+}
+#venom .venom_content h1 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+#venom .venom_content .para {
+  font-size: 14px;
+  font-weight: 300;
+  color: #b0b0b0;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+#venom .venom_content .btn {
+  margin-left: -15px;
+}
+#venom .venom_content .btn a {
+  padding: 14px 20px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #fff;
+  background: #000;
+  margin-right: 22px;
+  border-radius: 50px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+#venom .venom_content .btn a:hover {
+  background: #fc0f1f;
+  -webkit-box-shadow: 0 0 17px rgba(252, 15, 31, 0.58);
+          box-shadow: 0 0 17px rgba(252, 15, 31, 0.58);
+}
+#venom .venom_content .btn a i {
+  margin-right: 10px;
+  color: #fff;
+}
+
+/* Venom section css end  */
+/* Blog section css start  */
+#blog {
+  background: #020d18;
+}
+#blog .blog_img {
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+#blog .blog_game .blog_game_img {
+  margin-right: 30px;
+}
+#blog .blog_game .blog_game_content {
+  margin-top: 35px;
+  border-right: 1px solid #4c4c4c;
+  padding-right: 30px;
+}
+#blog .blog_game .blog_game_content h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+#blog .blog_game .blog_game_content p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #b0b0b0;
+  margin-bottom: 28px;
+  line-height: 1.6;
+}
+#blog .blog_game .blog_game_content a {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+#blog .blog_game .blog_game_content a:hover {
+  color: #f10e1f;
+  text-decoration: underline;
+}
+#blog .blog_game .blog_game_content a i {
+  padding-left: 9px;
+}
+
+/* Blog section css end  *//*# sourceMappingURL=style.css.map */
