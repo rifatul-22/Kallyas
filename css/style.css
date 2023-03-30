@@ -552,6 +552,9 @@ body {
   padding-top: 50px;
   padding-bottom: 80px;
 }
+#blog .blog_game {
+  margin-bottom: 80px;
+}
 #blog .blog_game .blog_game_img {
   margin-right: 30px;
 }
@@ -588,5 +591,164 @@ body {
 #blog .blog_game .blog_game_content a i {
   padding-left: 9px;
 }
+#blog .blog_artical {
+  margin-top: 24px;
+}
+#blog .blog_artical .blog_artical_item {
+  margin-top: 30px;
+}
+#blog .blog_artical .blog_artical_item .blog_artical_img {
+  margin-right: 20px;
+}
+#blog .blog_artical .blog_artical_item .blog_artical_content h6 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 1.7;
+  margin-top: 10px;
+}
+#blog .blog_artical .blog_artical_item .blog_artical_content a {
+  font-size: 12px;
+  font-weight: 300;
+  color: #4c4c4c;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+#blog .blog_artical .blog_artical_item .blog_artical_content a:hover {
+  color: #f10e1f;
+  text-decoration: underline;
+}
+#blog .blog_news {
+  position: relative;
+  margin-bottom: 55px;
+}
+#blog .blog_news .overlay {
+  position: absolute;
+  bottom: 0px;
+  background: rgba(0, 0, 0, 0.7);
+  margin-right: 12px;
+  padding: 20px 7px;
+}
+#blog .blog_news .overlay p {
+  font-size: 13px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 1.6;
+}
+#blog .load {
+  margin-bottom: 60px;
+}
+#blog .load a {
+  padding: 13px 22px;
+  background: #151f2b;
+  font-size: 12px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 15px;
+}
+#blog .load a i {
+  margin-right: 13px;
+}
 
-/* Blog section css end  *//*# sourceMappingURL=style.css.map */
+/* Blog section css end  */
+/* Footer section css start  */
+footer {
+  padding: 55px;
+  background: #000a15;
+}
+footer .footer_info p {
+  margin-top: 29px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #b0b0b0;
+  margin-bottom: 46px;
+}
+footer .footer_info .partner span {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 300;
+  color: #b0b0b0;
+  margin-bottom: 14px;
+}
+footer .footer_info .partner .star {
+  margin-bottom: 48px;
+}
+footer .footer_info .partner .star i {
+  width: 40px;
+  height: 40px;
+  background: #212121;
+  color: #6d6d6d;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+  margin-right: 8px;
+}
+footer .footer_info .social_link a {
+  margin-right: 13px;
+  color: #b0b0b0;
+  font-size: 30px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+footer .footer_info .social_link a:hover {
+  color: #f10e1f;
+}
+footer .footer_menu {
+  margin-left: 50px;
+}
+footer .footer_menu h6 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #b0b0b0;
+  margin-bottom: 28px;
+}
+footer .footer_menu ul {
+  margin-right: 64px;
+}
+footer .footer_menu ul:nth-child(3) {
+  margin-left: 20px;
+}
+footer .footer_menu ul li a {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 300;
+  color: #656565;
+  margin-bottom: 14px;
+  text-transform: capitalize;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+footer .footer_menu ul li a:hover {
+  color: #f10e1f;
+  text-decoration: underline;
+}
+footer .footer_others h6 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #b0b0b0;
+  margin-bottom: 28px;
+}
+footer .footer_others ul {
+  margin-right: 30px;
+}
+footer .footer_others ul li {
+  width: 132px;
+}
+footer .footer_others ul li a {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 300;
+  color: #656565;
+  margin-bottom: 14px;
+  text-transform: capitalize;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+footer .footer_others ul li a:hover {
+  color: #f10e1f;
+  text-decoration: underline;
+}
+
+/* Footer section css end  *//*# sourceMappingURL=style.css.map */

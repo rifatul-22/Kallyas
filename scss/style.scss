@@ -538,14 +538,9 @@ body{
         padding-bottom: 80px;
     }
     .blog_game{
+        margin-bottom: 80px;
         .blog_game_img{
             margin-right: 30px;
-            // height: 500px;
-            //     width: 332px;
-            // img{
-            //     height: 500px;
-            //     width: 332px !important;
-            // }
         }
         .blog_game_content{
             margin-top: 35px;
@@ -580,5 +575,170 @@ body{
             }
         }
     }
+    .blog_artical{
+        margin-top: 24px;
+        .blog_artical_item{
+            margin-top: 30px;
+            .blog_artical_img{
+                margin-right: 20px;
+            }
+            .blog_artical_content{
+                h6{
+                    font-size: 12px;
+                    font-weight: 500;
+                    color: #fff;
+                    line-height: 1.7;
+                    margin-top: 10px;
+                }
+                a{
+                    font-size: 12px;
+                    font-weight: 300;
+                    color: #4c4c4c;
+                    transition: 0.3s;
+                    &:hover{
+                        color: #f10e1f;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+    .blog_news{
+        position: relative;
+        margin-bottom: 55px;
+        .overlay{
+            position: absolute;
+            bottom: 0px;
+            background: rgba(0,0,0,0.70);
+            margin-right: 12px;
+            padding: 20px 7px;
+            p{
+                font-size: 13px;
+                font-weight: 500;
+                color: #fff;
+                line-height: 1.6;
+            }
+        }
+    }
+    .load{
+        margin-bottom: 60px;
+        a{
+            padding: 13px 22px;
+            background: #151f2b;
+            font-size: 12px;
+            font-weight: 400;
+            color: #fff;
+            text-transform: uppercase;
+            border-radius: 15px;
+            i{
+                margin-right: 13px;
+            }
+        }
+    }
 }
 /* Blog section css end  */
+/* Footer section css start  */
+footer{
+    padding: 55px;
+    background: #000a15;
+    .footer_info{
+        p{
+            margin-top: 29px;
+            font-size: 14px;
+            font-weight: 300;
+            color: #b0b0b0;
+            margin-bottom: 46px;
+        }
+        .partner{
+            span{
+                display: inline-block;
+                font-size: 14px;
+                font-weight: 300;
+                color: #b0b0b0;
+                margin-bottom: 14px;
+            }
+            .star{
+                margin-bottom: 48px;
+                i{
+                    width: 40px;
+                    height: 40px;
+                    background: #212121;
+                    color: #6d6d6d;
+                    text-align: center;
+                    line-height: 40px;
+                    border-radius: 50%;
+                    font-size: 20px;
+                    margin-right: 8px;
+                }
+            }
+        }
+        .social_link{
+            a{
+                margin-right: 13px;
+                color: #b0b0b0;
+                font-size: 30px;
+                transition: 0.3s;
+                &:hover{
+                    color: #f10e1f;
+                }
+            }
+        }
+    }
+    .footer_menu{
+        margin-left: 50px;
+        h6{
+            font-size: 14px;
+            font-weight: 500;
+            color: #b0b0b0;
+            margin-bottom: 28px;
+        }
+        ul{
+            margin-right: 64px;
+            &:nth-child(3){
+                margin-left: 20px;
+            }
+            li a{
+                display: inline-block;
+                font-size: 14px;
+                font-weight: 300;
+                color: #656565;
+                margin-bottom: 14px;
+                text-transform: capitalize;
+                transition: 0.3s;
+                &:hover{
+                    color: #f10e1f;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    .footer_others{
+        // margin-left: 45px;
+        h6{
+            font-size: 14px;
+            font-weight: 500;
+            color: #b0b0b0;
+            margin-bottom: 28px;
+        }
+        ul{
+            margin-right: 30px;
+            li{
+                width: 132px;
+                a{
+                    display: inline-block;
+                    font-size: 14px;
+                    font-weight: 300;
+                    color: #656565;
+                    margin-bottom: 14px;
+                    text-transform: capitalize;
+                    transition: 0.3s;
+                    &:hover{
+                        color: #f10e1f;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
+/* Footer section css end  */
