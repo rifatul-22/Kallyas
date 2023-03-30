@@ -751,4 +751,47 @@ footer .footer_others ul li a:hover {
   text-decoration: underline;
 }
 
-/* Footer section css end  *//*# sourceMappingURL=style.css.map */
+/* Footer section css end  */
+/* My List  section css start  */
+#my_list {
+  margin-top: 70px;
+}
+#my_list .my_list_blog .my_list_blog_item {
+  width: 220px;
+  margin-bottom: 40px;
+}
+#my_list .my_list_blog .my_list_blog_item .my_list_blog_item_img {
+  width: 196px;
+  height: 196px;
+}
+#my_list .my_list_blog .my_list_blog_item .my_list_blog_item_body h6 {
+  font-size: 13px;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 17px;
+}
+#my_list .my_list_blog .my_list_blog_item .my_list_blog_item_body .rating span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #4c4c4c;
+}
+#my_list .my_list_blog .my_list_blog_item .my_list_blog_item_body .rating .font {
+  margin-top: 5px;
+}
+#my_list .my_list_blog .my_list_blog_item .my_list_blog_item_body .rating .font .i_1 {
+  color: #4c4c4c;
+  font-size: 10px;
+  margin-right: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+#my_list .my_list_blog .my_list_blog_item .my_list_blog_item_body .rating .font .i_1:hover {
+  color: #f4dd1e;
+}
+#my_list .my_list_blog .my_list_blog_item .my_list_blog_item_body .rating .font .rat {
+  margin-top: -5px;
+  font-size: 12px;
+  color: #f4dd1e;
+}
+
+/* My List  section css end  *//*# sourceMappingURL=style.css.map */

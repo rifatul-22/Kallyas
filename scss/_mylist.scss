@@ -1,0 +1,51 @@
+
+
+
+/* My List  section css start  */
+#my_list{
+    margin-top: 70px;
+    .my_list_blog{
+        .my_list_blog_item{
+            width: 220px;
+            margin-bottom: 40px;
+            // margin-right: 38px;
+            .my_list_blog_item_img{
+                width: 196px;
+                height: 196px;
+            }
+            .my_list_blog_item_body{
+                h6{
+                    font-size: 13px;
+                    color: #fff;
+                    font-weight: 400;
+                    margin-bottom: 17px;
+                }
+                .rating{
+                    span{
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: #4c4c4c;
+                    }
+                    .font{
+                        margin-top: 5px;
+                        .i_1{
+                            color: #4c4c4c;
+                            font-size: 10px;
+                            margin-right: 20px;
+                            transition: 0.3s;
+                             &:hover{
+                                color: #f4dd1e;
+                             }
+                        }
+                        .rat{
+                             margin-top: -5px;
+                             font-size: 12px;
+                             color: #f4dd1e;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/* My List  section css end  */
