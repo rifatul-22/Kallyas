@@ -19,7 +19,7 @@ body{
     background: url(../img/banner_bg.jpg);
     background-position: center;
     background-size: cover;
-    height: 764px;
+    height: 767px;
     #nav{
         padding-top: 36px;
         position: relative;
@@ -743,4 +743,6 @@ footer{
 }
 /* Footer section css end  */
 
+
+@import "movie";
 @import "mylist";

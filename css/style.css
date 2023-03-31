@@ -23,7 +23,7 @@ body {
   background: url(../img/banner_bg.jpg);
   background-position: center;
   background-size: cover;
-  height: 764px;
+  height: 767px;
 }
 #header #nav {
   padding-top: 36px;
@@ -752,6 +752,161 @@ footer .footer_others ul li a:hover {
 }
 
 /* Footer section css end  */
+/* Movie header section css start  */
+#movie_header {
+  background: url(../img/movie_bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+}
+#movie_header #nav {
+  padding-top: 36px;
+  position: relative;
+}
+#movie_header #nav ul {
+  margin-left: 90px;
+}
+#movie_header #nav ul li a {
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  padding-right: 18px;
+  text-transform: capitalize;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+#movie_header #nav ul li a:hover {
+  color: #75101c;
+}
+#movie_header #nav .search_form {
+  position: relative;
+}
+#movie_header #nav .search_form .search {
+  position: relative;
+}
+#movie_header #nav .search_form .search input {
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #75101c;
+  position: absolute;
+  top: 7px;
+  left: -227px;
+}
+#movie_header #nav .search_form .search input::-webkit-input-placeholder {
+  color: #75101c;
+  font-weight: 600;
+}
+#movie_header #nav .search_form .search input::-moz-placeholder {
+  color: #75101c;
+  font-weight: 600;
+}
+#movie_header #nav .search_form .search input:-ms-input-placeholder {
+  color: #75101c;
+  font-weight: 600;
+}
+#movie_header #nav .search_form .search input::-ms-input-placeholder {
+  color: #75101c;
+  font-weight: 600;
+}
+#movie_header #nav .search_form .search input::placeholder {
+  color: #75101c;
+  font-weight: 600;
+}
+#movie_header #nav .search_form .search i {
+  position: absolute;
+  top: 9px;
+  right: 5px;
+  color: #75101c;
+}
+#movie_header #nav .search_form a {
+  margin: 0 20px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: capitalize;
+}
+#movie_header #nav .search_form a.bot {
+  margin-top: 12px;
+}
+#movie_header #nav .search_form a.a_active {
+  padding: 13px 20px;
+  background: #f10e1f;
+  border-radius: 50px;
+}
+#movie_header #movie_content {
+  margin-top: 100px;
+}
+#movie_header #movie_content .movie_content_img {
+  margin-left: -30px;
+}
+#movie_header #movie_content .movie_content_img img {
+  width: 297px;
+  height: 397px;
+}
+#movie_header #movie_content .movie_content_text {
+  margin-left: 30px;
+}
+#movie_header #movie_content .movie_content_text h3 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 7px;
+  margin-bottom: 20px;
+}
+#movie_header #movie_content .movie_content_text .lanch_info {
+  margin-bottom: 16px;
+}
+#movie_header #movie_content .movie_content_text .lanch_info ul li {
+  font-size: 14px;
+  font-weight: 300;
+  color: #b0b0b0;
+  margin-bottom: 10px;
+}
+#movie_header #movie_content .movie_content_text .lanch_info ul li span {
+  color: #0ea4f1;
+}
+#movie_header #movie_content .movie_content_text .movie_info p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #b0b0b0;
+  margin-top: 18px;
+}
+#movie_header #movie_content .movie_content_btn a {
+  display: inline-block;
+  padding: 14px 22px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #fff;
+  background: #000;
+  border-radius: 20px;
+  word-spacing: 3px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin-bottom: 20px;
+}
+#movie_header #movie_content .movie_content_btn a:hover {
+  background: #fc0f1f;
+  -webkit-box-shadow: 0 0 17px rgba(252, 15, 31, 0.58);
+          box-shadow: 0 0 17px rgba(252, 15, 31, 0.58);
+}
+#movie_header #movie_content .movie_content_btn a i {
+  margin-right: 10px;
+}
+#movie_header #movie_content .movie_content_btn .ratting .star {
+  margin-right: 10px;
+}
+#movie_header #movie_content .movie_content_btn .ratting .star i {
+  font-size: 14px;
+  color: #cfbc1a;
+}
+#movie_header #movie_content .movie_content_btn .ratting span {
+  display: inline-block;
+  color: #0ea4f1;
+}
+
+/* Movie header section css end  */
 /* My List  section css start  */
 #my_list {
   margin-top: 70px;

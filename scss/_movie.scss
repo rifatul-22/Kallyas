@@ -1,0 +1,148 @@
+
+
+/* Movie header section css start  */
+#movie_header{
+    background: url(../img/movie_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+
+    #nav{
+        padding-top: 36px;
+        position: relative;
+        ul{
+            margin-left: 90px;
+            li a{
+                font-size: 14px;
+                font-weight: 300;
+                color: #fff;
+                padding-right: 18px;
+                text-transform: capitalize;
+                transition: 0.3s;
+                &:hover{
+                    color: #75101c;
+                }
+            }
+        }
+        .search_form{
+            position: relative;
+            .search{
+                position: relative;
+                input{
+                    background: transparent;
+                    outline: none;
+                    border: none;
+                    border-bottom: 2px solid #75101c;
+                    position: absolute;
+                    top: 7px;
+                    left: -227px;
+                    &::placeholder{
+                        color: #75101c;
+                        font-weight: 600;
+                    }
+
+                }
+                i{
+                    position: absolute;
+                    top: 9px;
+                    right: 5px;
+                    color: #75101c;
+                }
+            }
+            a{
+                margin: 0 20px;
+                font-size: 14px;
+                font-weight: 400;
+                color: #fff;
+                text-transform: capitalize;
+                &.bot{
+                    margin-top: 12px;
+                }
+                &.a_active{
+                    padding: 13px 20px;
+                    background: #f10e1f;
+                    border-radius: 50px;
+                }
+            }
+        }
+    }
+
+    #movie_content{
+        margin-top: 100px;
+        .movie_content_img{
+            margin-left: -30px;
+            img{
+                width: 297px;
+                height: 397px;
+            }
+        }
+        .movie_content_text{
+            margin-left: 30px;
+            h3{
+                font-size: 36px;
+                font-weight: 600;
+                color: #fff;
+                text-transform: uppercase;
+                margin-top: 7px;
+                margin-bottom: 20px;
+            }
+            .lanch_info{
+                margin-bottom: 16px;
+                ul li{
+                    font-size: 14px;
+                    font-weight: 300;
+                    color: #b0b0b0;
+                    margin-bottom: 10px;
+                    span{
+                        color: #0ea4f1;
+                    }
+                }
+            }
+            .movie_info{
+                p{
+                    font-size: 14px;
+                    font-weight: 300;
+                    color: #b0b0b0;
+                    margin-top: 18px;
+                }
+            }
+        }
+        .movie_content_btn{
+            a{
+                display: inline-block;
+                padding: 14px 22px;
+                font-size: 12px;
+                font-weight: 400;
+                color: #fff;
+                background: #000;
+                border-radius: 20px;
+                word-spacing: 3px;
+                transition: 0.3s;
+                margin-bottom: 20px;
+                &:hover{
+                    background: #fc0f1f;
+                    box-shadow: 0 0 17px rgba(252,15,31,0.58);
+                }
+                i{
+                    margin-right: 10px;
+                }
+            }
+            .ratting{
+                .star{
+                    margin-right: 10px;
+                    i{
+                        font-size: 14px;
+                        // margin-right: 5px;
+                        color: #cfbc1a;
+                    }
+                }
+                span{
+                    display: inline-block;
+                    color: #0ea4f1;
+                }
+            }
+
+        }
+    }
+}
+/* Movie header section css end  */
