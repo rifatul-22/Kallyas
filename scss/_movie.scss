@@ -146,3 +146,77 @@
     }
 }
 /* Movie header section css end  */
+/* Movie header section css end  */
+#movie_blog{
+    background: #020d18;
+    .movie_blog_box{
+        .movie_blog_box_item{
+            margin-top: 30px;
+            .movie_blog_box_img{
+                margin-right: 20px;
+            }
+            .movie_blog_box_content{
+                h6{
+                    font-size: 12px;
+                    font-weight: 500;
+                    color: #fff;
+                    line-height: 1.7;
+                    margin-top: 10px;
+                }
+                a{
+                    font-size: 12px;
+                    font-weight: 300;
+                    color: #4c4c4c;
+                    transition: 0.3s;
+                    &:hover{
+                        color: #f10e1f;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+    .movie_blog_video{
+        position: relative;
+        a{
+            width: 70px;
+            height: 50px;
+            position: absolute;
+            top: 50%;
+            right: 39%;
+            transform: translate(-50%, -50%);
+            i{
+                width: 70px;
+                height: 50px;
+                color: #fff;  
+                background: rgba(29,27,26,0.85);
+                border-radius: 15px;
+                text-align: center;
+                font-size: 20px;
+                line-height: 50px;
+            }
+        }
+    }
+    .movie_blog_news{
+        position: relative;
+        margin-top: 100px;
+        .overlay{
+            position: absolute;
+            width: 261px;
+            bottom: 0px;
+            background: rgba(0,0,0,0.70);
+            margin-right: 12px;
+            padding: 20px 9px;
+            p{
+                font-size: 13px;
+                font-weight: 500;
+                color: #fff;
+                line-height: 1.6;
+            }
+        }
+    }
+    .bottom{
+        margin-top: 100px;
+    }
+}
+/* Movie header section css end  */
