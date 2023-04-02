@@ -1,0 +1,98 @@
+
+/* Artical page section css start  */
+#blog_page{
+    .artical_img{
+        // margin-right: 30px;
+        img{
+            margin-left: 70px;
+            margin-top: 75px;
+        }
+        .title{
+            font-size: 36px;
+            font-weight: 600;
+            color: #fff;
+            margin-top: 42px;
+            margin-left: 73px;
+            margin-bottom: 20px;
+        }
+        .react{
+            margin-left: 73px;
+            color: #fff;
+            div{
+                margin-right: 15px;
+            }
+        }
+    }
+}
+/* Artical page section css end  */
+
+#artical_thum{
+    margin-top: -2px;
+    background: #020d18;
+    .artical_text{
+        margin-left: 60px;
+        margin-top: 20px;
+        p{
+            font-size: 14px;
+            font-weight: 300;
+            color: #b0b0b0;
+            line-height: 1.7;
+            margin-bottom: 30px;
+        }
+        .share{
+            span{
+                display: inline-block;
+                margin-top: 40px;
+                font-size: 14px;
+                font-weight: 300;
+                color: #fff;
+                margin-bottom: 18px;
+            }
+            .social_link{
+                a{
+                    display: inline-block;
+                    color: #fff;
+                    margin-right: 20px;
+                    margin-bottom: 60px;
+                    transition: 0.3s;
+                    &:hover{
+                        color: #f10e1f;
+                    }
+                }
+            }
+        }
+        hr{
+            width: 100%;
+            color: #4b4b4b;
+        }
+        .artical_blog{
+            margin-top: 86px;
+            margin-bottom: 300px;
+            .artical_blog_item{
+                margin-right: 100px;
+                .artical_blog_img{
+                    margin-right: 20px;
+                }
+                .artical_blog_text{
+                    h6{
+                        font-size: 14px;
+                        font-weight: 500;
+                        color: #fff;
+                        line-height: 1.6;
+                        margin-top: 7px;
+                    }
+                    a{
+                        font-size: 12px;
+                        font-weight: 300;
+                        color: #4c4c4c;
+                        transition: 0.3s;
+                        &:hover{
+                            color: #f10e1f;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
