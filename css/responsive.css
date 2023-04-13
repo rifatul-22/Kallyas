@@ -1,0 +1,311 @@
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* home page section css start  */
+  /* home page header section css start  */
+  #header #nav ul {
+    margin-left: 50px;
+  }
+  #header #nav .search_form .search input {
+    display: none;
+  }
+  #header #nav .search_form .search a i {
+    position: absolute;
+    top: 16px;
+    right: 10px;
+    color: #75101c;
+    font-size: 18px;
+  }
+  #header #banner .banner_content h1 {
+    font-size: 56px;
+    margin-bottom: 25px;
+  }
+  #serial_movie .serial_movie_center_icon .serial_movie_center_icon_btn span i {
+    display: none;
+  }
+  /* home page header section css end  */
+  /* home page mission section css start  */
+  #mission .mission_img {
+    position: relative;
+    width: 500px;
+  }
+  #mission .mission_img a {
+    top: 50%;
+  }
+  #mission .mission_img a i {
+    width: 60px;
+    height: 40px;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  #mission .mission_content .box {
+    margin-top: 40px;
+    margin-left: 123px;
+  }
+  #mission .mission_content h1 {
+    font-size: 26px;
+    margin-bottom: 22px;
+  }
+  #mission .mission_content .para {
+    font-size: 12px;
+    margin-bottom: 30px;
+  }
+  /* home page mission section css end  */
+  /* home page Trand section css start  */
+  #trand .add_img img {
+    width: 900px;
+  }
+  #trand .title p {
+    margin-bottom: 22px;
+    margin-left: 18px;
+  }
+  /* home page Trand section css end  */
+  /* home page Jurassic section css start  */
+  #jurassic {
+    height: 700px;
+  }
+  #jurassic .jurassic_content h1 {
+    font-size: 26px;
+    margin-bottom: 30px;
+  }
+  #jurassic .jurassic_content .para {
+    margin-bottom: 30px;
+  }
+  /* home page Jurassic section css end  */
+  /* home page venom section css start  */
+  #venom .venom_img img {
+    width: 500px;
+  }
+  #venom .venom_img a {
+    top: 50%;
+    right: 33%;
+  }
+  #venom .venom_img a i {
+    width: 60px;
+    height: 40px;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  #venom .venom_content .box {
+    margin-top: 48px;
+    margin-left: 90px;
+  }
+  #venom .venom_content h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+  }
+  #venom .venom_content .para {
+    font-size: 13px;
+    margin-bottom: 28px;
+    margin-right: 30px;
+  }
+  /* home page venom section css end  */
+  /* home page Blog section css start  */
+  #blog .blog_img img {
+    width: 900px;
+  }
+  #blog .blog_game .blog_game_content {
+    margin-top: 20px;
+    padding-right: 20px;
+  }
+  #blog .blog_game .blog_game_content h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  #blog .blog_game .blog_game_content p {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+  #blog .blog_artical .blog_artical_item {
+    margin-top: 15px;
+  }
+  #blog .blog_artical .blog_artical_item .blog_artical_img a img {
+    width: 70px;
+    height: 70px;
+  }
+  #blog .blog_artical .blog_artical_item .blog_artical_img {
+    margin-right: 15px;
+  }
+  #blog .blog_artical .blog_artical_item .blog_artical_content h6 {
+    font-size: 9px;
+    margin-top: 10px;
+  }
+  /* home page Blog section css end  */
+  /* home page Footer section css start  */
+  footer .footer_info p {
+    margin-top: 25px;
+    font-size: 11px;
+    margin-bottom: 24px;
+    line-height: 1.6;
+  }
+  footer .footer_info .partner .star {
+    margin-bottom: 28px;
+  }
+  footer .footer_info .partner .star i {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    margin-right: 5px;
+  }
+  footer .footer_menu {
+    margin-left: 20px;
+  }
+  footer .footer_menu ul {
+    margin-right: 30px;
+  }
+  footer .footer_menu ul li a {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  footer .footer_others {
+    margin-left: -20px;
+  }
+  footer .footer_others ul li {
+    width: 110px;
+  }
+  footer .footer_others ul li a {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  /* home page Footer section css end  */
+  /* home page section css end  */
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* home page section css start  */
+  /* home page header section css start  */
+  #header {
+    height: 650px;
+  }
+  #header #nav .nav_btn {
+    background: #f10e1f;
+    color: #fff;
+  }
+  #header #nav .nav_btn span i {
+    margin-top: 5px;
+  }
+  #header #nav ul {
+    margin-top: 25px;
+  }
+  #header #nav ul li a {
+    margin-bottom: 20px;
+  }
+  #header #nav .search_form .search input {
+    display: none;
+  }
+  #header #nav .search_form .search a i {
+    right: 100px;
+  }
+  /* home page header section css end  */
+  /* home page Banner section css start  */
+  #header #banner .banner_content .box {
+    margin-top: 50px;
+  }
+  #header #banner .banner_content h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+  #header #banner .banner_content .para {
+    margin-bottom: 30px;
+  }
+  #header #banner .banner_img img {
+    display: none;
+  }
+  /* home page Banner section css end  */
+  /* home page serial movie section css start  */
+  #serial_movie p {
+    padding-top: 15px;
+  }
+  #serial_movie .serial_movie_center_icon .serial_movie_center_icon_btn span i {
+    display: none;
+  }
+  /* home page serial movie section css end  */
+  /* home page mission section css start  */
+  #mission .mission_content .box {
+    margin-left: 420px;
+  }
+  #mission .mission_content h1 {
+    font-size: 32px;
+    margin-bottom: 25px;
+    margin-right: 22px;
+  }
+  #mission .mission_content .para {
+    font-size: 14px;
+    margin-bottom: 30px;
+    margin-right: 22px;
+  }
+  /* home page mission section css end  */
+  /* home page Trand section css start  */
+  #trand .add_img img {
+    width: 630px;
+  }
+  #trand .serial_filter_content li {
+    padding: 10px 10px;
+    font-size: 10px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+  }
+  /* home page Trand section css end  */
+  /* home page jurassic section css start  */
+  #jurassic {
+    height: 600px;
+  }
+  #jurassic .jurassic_content h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  /* home page jurassic section css end  */
+  /* home page venom section css start  */
+  #venom .venom_img img {
+    margin-left: 70px;
+  }
+  #venom .venom_content .box {
+    margin-left: 424px;
+  }
+  #venom .venom_content h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-right: 16px;
+  }
+  #venom .venom_content .para {
+    font-size: 13px;
+    margin-bottom: 30px;
+    margin-right: 16px;
+  }
+  /* home page venom section css end  */
+  /* home page Blog section css start  */
+  #blog .blog_img img {
+    width: 630px;
+  }
+  #blog .blog_game .blog_game_img img {
+    width: 220px;
+    height: 340px;
+  }
+  #blog .blog_game .blog_game_content {
+    margin-top: 20px;
+  }
+  #blog .blog_game .blog_game_content h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  #blog .blog_game .blog_game_content p {
+    font-size: 12px;
+    margin-bottom: 18px;
+  }
+  #blog .blog_artical {
+    margin-top: -20px;
+    margin-bottom: 70px;
+  }
+  #blog .blog_news {
+    margin-bottom: 55px;
+    width: 263px;
+    margin-right: 70px;
+  }
+  #blog .blog_news .overlay {
+    width: 239px;
+  }
+  #blog .blog_news .overlay p {
+    font-size: 11px;
+  }
+  /* home page Blog section css end  */
+  /* home page section css end  */
+}/*# sourceMappingURL=responsive.css.map */

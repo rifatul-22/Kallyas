@@ -29,6 +29,9 @@ body {
   padding-top: 36px;
   position: relative;
 }
+#header #nav .nav_btn {
+  color: #f10e1f;
+}
 #header #nav ul {
   margin-left: 90px;
 }
@@ -79,10 +82,10 @@ body {
   color: #75101c;
   font-weight: 600;
 }
-#header #nav .search_form .search i {
+#header #nav .search_form .search a i {
   position: absolute;
-  top: 9px;
-  right: 5px;
+  top: 15px;
+  right: 50px;
   color: #75101c;
 }
 #header #nav .search_form a {
@@ -305,6 +308,9 @@ body {
   margin-top: 50px;
   margin-bottom: 42px;
 }
+#trand .add_img img {
+  width: 970px;
+}
 #trand .title p {
   font-size: 14px;
   font-weight: 300;
@@ -461,6 +467,9 @@ body {
 #venom .venom_img {
   position: relative;
 }
+#venom .venom_img img {
+  width: 536px;
+}
 #venom .venom_img a {
   width: 70px;
   height: 50px;
@@ -552,6 +561,9 @@ body {
   padding-top: 50px;
   padding-bottom: 80px;
 }
+#blog .blog_img img {
+  width: 970px;
+}
 #blog .blog_game {
   margin-bottom: 80px;
 }
@@ -599,6 +611,14 @@ body {
 }
 #blog .blog_artical .blog_artical_item .blog_artical_img {
   margin-right: 20px;
+}
+#blog .blog_artical .blog_artical_item .blog_artical_img a {
+  width: 80px;
+  height: 80px;
+}
+#blog .blog_artical .blog_artical_item .blog_artical_img a img {
+  width: 80px;
+  height: 80px;
 }
 #blog .blog_artical .blog_artical_item .blog_artical_content h6 {
   font-size: 12px;
