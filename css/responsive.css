@@ -193,7 +193,7 @@
     display: none;
   }
   #header #nav .search_form .search a i {
-    right: 100px;
+    right: -250px;
   }
   /* home page header section css end  */
   /* home page Banner section css start  */
@@ -256,7 +256,8 @@
   /* home page jurassic section css end  */
   /* home page venom section css start  */
   #venom .venom_img img {
-    margin-left: 70px;
+    margin-left: 2px;
+    width: 674px;
   }
   #venom .venom_content .box {
     margin-left: 424px;
@@ -297,15 +298,411 @@
   }
   #blog .blog_news {
     margin-bottom: 55px;
-    width: 263px;
-    margin-right: 70px;
+    width: 220px;
+    margin-right: 20px;
   }
   #blog .blog_news .overlay {
-    width: 239px;
+    width: 196px;
   }
   #blog .blog_news .overlay p {
-    font-size: 11px;
+    font-size: 10px;
   }
   /* home page Blog section css end  */
+  /* home page Footer section css start  */
+  footer .footer_info img {
+    width: 140px;
+  }
+  footer .footer_info p {
+    font-size: 12px;
+    margin-top: 29px;
+    margin-bottom: 20px;
+  }
+  footer .footer_info .partner .star {
+    margin-bottom: 20px;
+  }
+  footer .footer_info .social_link a {
+    font-size: 25px;
+  }
+  footer .footer_menu {
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+  footer .footer_others {
+    margin-top: 50px;
+  }
+  footer .footer_others ul {
+    margin-right: 80px;
+  }
+  /* home page Footer section css end  */
   /* home page section css end  */
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* home page section css start  */
+  /* home page header section css start  */
+  #header {
+    height: 550px;
+  }
+  #header #nav .nav_btn {
+    background: #f10e1f;
+    color: #fff;
+    width: 40px;
+  }
+  #header #nav .nav_btn span i {
+    margin-top: 5px;
+    margin-left: -15px;
+  }
+  #header #nav ul {
+    margin-top: 25px;
+  }
+  #header #nav ul li a {
+    margin-bottom: 15px;
+  }
+  #header #nav .search_form a.a_active {
+    padding: 10px 15px;
+  }
+  #header #nav .search_form a {
+    font-size: 13px;
+  }
+  #header #nav .search_form .search input {
+    display: none;
+  }
+  #header #nav .search_form .search a i {
+    right: -230px;
+    color: #fff;
+  }
+  /* home page header section css end  */
+  /* home page Banner section css start  */
+  #header #banner .banner_content .box {
+    margin-top: 15px;
+  }
+  #header #banner .banner_content .box span {
+    padding: 5px 7px;
+    font-size: 12px;
+    margin-right: 10px;
+  }
+  #header #banner .banner_content .box p {
+    padding: 3px 5px;
+    font-size: 12px;
+    margin-right: 10px;
+  }
+  #header #banner .banner_content h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  #header #banner .banner_content .para {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+  #header #banner .banner_content .btn a {
+    padding: 10px 15px;
+    font-size: 10px;
+    margin-right: 15px;
+  }
+  #header #banner .banner_img img {
+    display: none;
+  }
+  /* home page Banner section css end  */
+  /* home page serial movie section css start  */
+  #serial_movie p {
+    font-size: 11px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+  }
+  #serial_movie .serial_movie_center_icon .serial_movie_center_icon_btn span i {
+    display: none;
+  }
+  /* home page serial movie section css end  */
+  /* home page mission section css start  */
+  #mission {
+    padding: 30px 0;
+  }
+  #mission .mission_img a {
+    width: 55px;
+    height: 36px;
+  }
+  #mission .mission_img a i {
+    width: 55px;
+    height: 36px;
+    font-size: 15px;
+    line-height: 35px;
+  }
+  #mission .mission_content .box {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 310px;
+  }
+  #mission .mission_content .box span {
+    padding: 5px 7px;
+    font-size: 12px;
+    margin-right: 10px;
+  }
+  #mission .mission_content .box p {
+    padding: 5px;
+    font-size: 12px;
+    margin-right: 10px;
+  }
+  #mission .mission_content h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  #mission .mission_content .para {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  #mission .mission_content .btn a {
+    padding: 10px 15px;
+    font-size: 10px;
+    margin-right: 10px;
+  }
+  /* home page mission section css end  */
+  /* home page trand section css start  */
+  #trand .add_img {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  #trand .add_img img {
+    width: 460px;
+  }
+  #trand .title p {
+    font-size: 11px;
+    margin-bottom: 20px;
+  }
+  #trand .serial_filter_content li {
+    padding: 5px 8px;
+    font-size: 8px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+  }
+  #trand .serial_filter .serial_filter_item {
+    width: 170px;
+  }
+  #trand .serial_filter .serial_filter_item .serial_filter_item_img {
+    width: 150px;
+    height: 150px;
+  }
+  #trand .serial_filter .serial_filter_item .serial_filter_item_body h6 {
+    font-size: 11px;
+    margin-bottom: 10px;
+  }
+  #trand .serial_filter .serial_filter_item .serial_filter_item_body .rating span {
+    font-size: 11px;
+  }
+  #trand .serial_filter .serial_filter_item .serial_filter_item_body .rating .font {
+    margin-top: 3px;
+    margin-right: 38px;
+    margin-bottom: 50px;
+  }
+  #trand .serial_filter .serial_filter_item .serial_filter_item_body .rating .font .i_1 {
+    font-size: 10px;
+    margin-right: 10px;
+  }
+  #trand .serial_filter .serial_filter_item .serial_filter_item_body .rating .font .rat {
+    margin-top: -2px;
+    font-size: 10px;
+  }
+  /* home page trand section css end  */
+  /* home page jurassic section css start  */
+  #jurassic {
+    height: 450px;
+  }
+  #jurassic .jurassic_content .box {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  #jurassic .jurassic_content .box span {
+    padding: 5px 7px;
+    font-size: 12px;
+    margin-right: 10px;
+  }
+  #jurassic .jurassic_content .box p {
+    padding: 5px;
+    font-size: 12px;
+    margin-right: 10px;
+  }
+  #jurassic .jurassic_content h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  #jurassic .jurassic_content .para {
+    font-size: 11px;
+    margin-bottom: 20px;
+  }
+  #jurassic .jurassic_content .btn a {
+    padding: 10px 15px;
+    font-size: 9px;
+    margin-right: 15px;
+  }
+  /* home page jurassic section css end  */
+  /* home page venom section css start  */
+  #venom {
+    padding: 30px 0;
+  }
+  #venom .venom_img a {
+    right: 33%;
+  }
+  #venom .venom_img a i {
+    width: 60px;
+    height: 40px;
+    font-size: 15px;
+    line-height: 40px;
+  }
+  #venom .venom_content .box {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 308px;
+  }
+  #venom .venom_content .box span {
+    padding: 5px 7px;
+    font-size: 12px;
+    margin-right: 10px;
+  }
+  #venom .venom_content .box p {
+    padding: 5px;
+    font-size: 12px;
+    margin-right: 10px;
+  }
+  #venom .venom_content h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  #venom .venom_content .para {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  #venom .venom_content .btn a {
+    padding: 10px 15px;
+    font-size: 10px;
+    margin-right: 8px;
+  }
+  /* home page venom section css end  */
+  /* home page Blog section css start  */
+  #blog .blog_img {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  #blog .blog_img img {
+    width: 460px;
+  }
+  #blog .blog_game .blog_game_content {
+    margin-top: 20px;
+    border-right: none;
+    padding-right: 0px;
+  }
+  #blog .blog_game .blog_game_content h2 {
+    font-size: 20px;
+    margin-bottom: 13px;
+  }
+  #blog .blog_game .blog_game_content p {
+    font-size: 9px;
+    margin-bottom: 20px;
+    width: 300px;
+  }
+  #blog .blog_game .blog_game_content a {
+    font-size: 11px;
+  }
+  #blog .blog_artical {
+    margin-top: -50px;
+    margin-bottom: 60px;
+  }
+  #blog .blog_artical .blog_artical_item .blog_artical_content h6 {
+    font-size: 10px;
+    margin-top: 10px;
+    width: 150px;
+  }
+  #blog .blog_artical .blog_artical_item .blog_artical_content a {
+    font-size: 10px;
+  }
+  #blog .blog_news {
+    margin-bottom: 40px;
+    width: 260px;
+    margin-right: 10px;
+  }
+  #blog .blog_news .overlay {
+    width: 236px;
+  }
+  #blog .blog_news .overlay p {
+    font-size: 9px;
+  }
+  #blog .load {
+    margin-bottom: 40px;
+  }
+  #blog .load a {
+    padding: 10px 15px;
+    font-size: 10px;
+  }
+  /* home page Blog section css end  */
+  /* home page Footer section css start  */
+  footer .footer_info img {
+    width: 120px;
+  }
+  footer .footer_info p {
+    margin-top: 20px;
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+  footer .footer_info .partner .star {
+    margin-bottom: 20px;
+  }
+  footer .footer_info .partner .star i {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 13px;
+  }
+  footer .footer_info .social_link a {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  footer .footer_menu {
+    margin-left: 0px;
+    margin-top: 40px;
+  }
+  footer .footer_menu h6 {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  footer .footer_menu ul {
+    margin-right: 50px;
+  }
+  footer .footer_menu ul li a {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  footer .footer_others {
+    margin-top: 50px;
+  }
+  footer .footer_others h6 {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  footer .footer_others ul {
+    margin-right: 50px;
+  }
+  footer .footer_others ul li a {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  /* home page Footer section css end  */
+  /* home page section css end  */
+}
+@media (min-width: 360px) and (max-width: 575.98px) {
+  /* home page section css start  */
+  /* home page header section css start  */
+  #header #nav .nav_btn {
+    color: #fff;
+    width: 30px;
+    height: 30px;
+  }
+  #header #nav .nav_btn span i {
+    margin-left: -25px;
+    border: none;
+  }
+  #header #nav ul {
+    margin-top: 25px;
+  }
+  #header #nav ul li a {
+    margin-bottom: 15px;
+  }
+  /* home page header section css end  */
+  /* home page section css start  */
 }/*# sourceMappingURL=responsive.css.map */
