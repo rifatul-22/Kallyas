@@ -173,8 +173,15 @@
         margin-bottom: 10px;
     }
     /* home page Footer section css end  */
-
     /* home page section css end  */
+    /* My List page section css start  */
+    /* My List section css start  */
+    #my_list {
+        margin-top: 70px;
+        margin-left: 50px;
+    }
+    /* My List section css end  */
+    /* My List page section css end  */
 }
 
 @media (min-width: 768px) and (max-width: 991.98px){
@@ -184,7 +191,6 @@
         height: 650px;
     }
     #header #nav .nav_btn {
-        // color: #f10e1f;
         background: #f10e1f;
         color: #fff;
     }
@@ -343,6 +349,32 @@
     }
     /* home page Footer section css end  */
     /* home page section css end  */
+    /* My List page section css start  */
+    /* My List My List Blog section css start  */
+    #my_list .my_list_blog .my_list_blog_item {
+        width: 180px;
+        margin-bottom: 20px;
+    }
+    #my_list .my_list_blog .my_list_blog_item .my_list_blog_item_img {
+        width: 160px;
+        height: 160px;
+    }
+    #my_list .my_list_blog .my_list_blog_item .my_list_blog_item_body h6 {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    #my_list .my_list_blog .my_list_blog_item .my_list_blog_item_body .rating span {
+        font-size: 12px;
+    }
+    #my_list .my_list_blog .my_list_blog_item .my_list_blog_item_body .rating .font .i_1 {
+        margin-right: 10px;
+    }
+    #my_list .my_list_blog .my_list_blog_item .my_list_blog_item_body .rating .font .rat {
+        margin-top: -4px;
+        font-size: 11px;
+    }
+    /* My List My List Blog section css end  */
+    /* My List page section css end  */
 }
 
 @media (min-width: 576px) and (max-width: 767.98px){
@@ -694,9 +726,42 @@
     /* home page Footer section css end  */
 
     /* home page section css end  */
+    /* My List page section css start  */
+    /* My List page header section css start  */
+  #header {
+    height: 800px;
+  }
+  /* My List page header section css end  */
+  /* My List page my list blog section css start  */
+  #my_list .my_list_blog .my_list_blog_item {
+    width: 160px;
+    margin-bottom: 20px;
+  }
+  #my_list .my_list_blog .my_list_blog_item .my_list_blog_item_img {
+    width: 145px;
+    height: 145px;
+  }
+  #my_list .my_list_blog .my_list_blog_item .my_list_blog_item_body h6 {
+    font-size: 11px;
+    margin-bottom: 8px;
+  }
+  #my_list .my_list_blog .my_list_blog_item .my_list_blog_item_body .rating span {
+    font-size: 12px;
+  }
+  #my_list .my_list_blog .my_list_blog_item .my_list_blog_item_body .rating .font .i_1 {
+    font-size: 10px;
+    margin-right: 10px;
+  }
+  /* My List page my list blog section css end  */
+  /* My List page Footer section css start  */
+  .list_footer {
+    margin-top: -3px;
+  }
+  /* My List page Footer section css end  */
+    /* My List page section css end  */
 }
 
-@media (min-width: 360px) and (max-width: 575.98px){
+@media (min-width: 360px) and  (max-width: 575.98px){
     /* home page section css start  */
     /* home page header section css start  */
     #header {
@@ -1049,8 +1114,35 @@
     }
     /* home page Footer section css end  */
 
+    /* home page section css end  */
     /* home page section css start  */
+    /* My List page My List Blog section css start  */
+    #header {
+        height: 1060px;
+    }
+    #my_list {
+        margin-top: 40px;
+    }
+    #my_list .my_list_blog .my_list_blog_item {
+        width: 170px;
+        margin-bottom: 20px;
+    }
+    #my_list .my_list_blog .my_list_blog_item .my_list_blog_item_img {
+        width: 160px;
+        height: 160px;
+    }
+    #my_list .my_list_blog .my_list_blog_item .my_list_blog_item_body h6 {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .list_footer {
+        margin-top: -3px;
+    }
+    /* My List page My List Blog section css end  */
+    /* home page section css end  */
 }
 
 
 // @media (max-width: 575.98px){}
+
+// (min-width: 360px) and 

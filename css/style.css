@@ -1276,6 +1276,12 @@ footer .footer_others ul li a:hover {
 }
 
 /* My List  section css end  */
+/* My List Footer section css start  */
+.list_footer {
+  margin-top: -2px;
+}
+
+/* My List Footer section css end  */
 /* Artical page section css start  */
 #blog_page .artical_img img {
   margin-left: 70px;
