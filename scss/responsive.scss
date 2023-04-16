@@ -699,6 +699,9 @@
 @media (min-width: 360px) and (max-width: 575.98px){
     /* home page section css start  */
     /* home page header section css start  */
+    #header {
+        height: 510px;
+    }
     #header #nav .nav_btn {
         color: #fff;
         width: 30px;
@@ -710,11 +713,341 @@
     }
     #header #nav ul {
         margin-top: 25px;
+        margin-left: 15px;
     }
     #header #nav ul li a {
         margin-bottom: 15px;
     }
+    #header #nav .search_form .search {
+        display: none;
+    }
     /* home page header section css end  */
+    /* home page Banner section css start  */
+    #header #banner .banner_content .box {
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    #header #banner .banner_content .box span {
+        padding: 5px;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    #header #banner .banner_content .box p {
+        padding: 3px 5px;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    #header #banner .banner_content h1 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    #header #banner .banner_content .para {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    #header #banner .banner_content .btn a {
+        padding: 10px 10px;
+        font-size: 10px;
+        font-weight: 400;
+        margin-right: 10px;
+    }
+    #header #banner .banner_img img{
+        display: none;
+    }
+    /* home page Banner section css end  */
+    /* home page serial movie section css start  */
+    #serial_movie p {
+        font-size: 12px;
+        margin-bottom: 25px;
+        padding-top: 15px;
+    }
+    #serial_movie .serial_movie_center_icon .serial_movie_center_icon_btn span i {
+        display: none;
+    }
+    /* home page serial movie section css end  */
+    /* home page mission section css start  */
+    #mission {
+        padding: 30px 0;
+    }
+    #mission .mission_img {
+        margin-left: 20px;
+    }
+    #mission .mission_img img {
+        width: 300px;
+    }
+    #mission .mission_img a {
+        top: 56%;
+        right: 32%;
+    }
+    #mission .mission_img a i {
+        width: 50px;
+        height: 30px;
+        font-size: 13px;
+        line-height: 30px;
+    }
+    #mission .mission_content .box {
+        margin-top: 30px;
+        margin-bottom: 15px;
+        margin-left: 120px;
+    }
+    #mission .mission_content .box span {
+        padding: 5px;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    #mission .mission_content .box p {
+        padding: 5px;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    #mission .mission_content h1 {
+        font-size: 20px;
+        margin-bottom: 15px;
+        margin-right: 15px;
+    }
+    #mission .mission_content .para {
+        font-size: 13px;
+        margin-bottom: 25px;
+        margin-right: 15px;
+    }
+    #mission .mission_content .btn a {
+        padding: 10px 10px;
+        font-size: 10px;
+        font-weight: 400;
+        margin-right: 10px;
+    }
+    /* home page mission section css end  */
+    /* home page trand section css start  */
+    #trand .add_img {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    #trand .add_img img {
+        width: 300px;
+    }
+    #trand .title p {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+    #trand .serial_filter_content li {
+        padding: 5px 8px;
+        font-size: 5px;
+        margin-right: 3px;
+        margin-bottom: 30px;
+    }
+    #trand .serial_filter .serial_filter_item{
+        width: 160px;
+        margin-bottom: 0;
+        margin-left: 15px;
+    }
+    #trand .serial_filter .serial_filter_item .serial_filter_item_img {
+        width: 140px;
+        height: 140px;
+    }
+    #trand .serial_filter .serial_filter_item .serial_filter_item_body h6 {
+        font-size: 11px;
+        margin-bottom: 10px;
+    }
+    #trand .serial_filter .serial_filter_item .serial_filter_item_body .rating span {
+        font-size: 11px;
+    }
+    #trand .serial_filter .serial_filter_item .serial_filter_item_body .rating .font {
+        margin-top: 3px;
+        margin-bottom: 50px;
+    }
+    #trand .serial_filter .serial_filter_item .serial_filter_item_body .rating .font .i_1 {
+        font-size: 10px;
+        margin-right: 10px;
+    }
+    #trand .serial_filter .serial_filter_item .serial_filter_item_body .rating .font .rat {
+        margin-top: -2px;
+        font-size: 10px;
+    }
+    #trand .load {
+        margin-bottom: 40px;
+    }
+    #trand .load a {
+        padding: 10px 10px;
+        font-size: 11px;
+    }
+    /* home page trand section css end  */
+    /* home page jurassic section css start  */
+    #jurassic {
+        height: 480px;
+    }
+    #jurassic .jurassic_content .box {
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    #jurassic .jurassic_content .box span {
+        padding: 5px;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    #jurassic .jurassic_content .box p {
+        padding: 5px;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    #jurassic .jurassic_content h1 {
+        font-size: 22px;
+        line-height: 1.5;
+        margin-bottom: 15px;
+    }
+    #jurassic .jurassic_content .para {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    #jurassic .jurassic_content .btn a {
+        padding: 10px;
+        font-size: 10px;
+        font-weight: 400;
+        margin-right: 10px;
+    }
+    /* home page jurassic section css end  */
+    /* home page venom section css start  */
+    #venom {
+        padding: 30px 0;
+    }
+    #venom .venom_img {
+        margin-left: 17px;
+    }
+    #venom .venom_img img {
+        width: 300px;
+    }
+    #venom .venom_img a {
+        top: 52%;
+        right: 28%;
+    }
+    #venom .venom_img a i {
+        width: 50px;
+        height: 30px;
+        font-size: 15px;
+        line-height: 30px;
+    }
+    #venom .venom_content .box {
+        margin-top: 30px;
+        margin-bottom: 15px;
+        margin-left: 117px;
+    }
+    #venom .venom_content .box span {
+        padding: 5px;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    #venom .venom_content .box p {
+        padding: 5px;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    #venom .venom_content h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+        margin-right: 15px;
+    }
+    #venom .venom_content .para {
+        font-size: 13px;
+        margin-bottom: 20px;
+        margin-right: 15px;
+    }
+    #venom .venom_content .btn a {
+        padding: 10px;
+        font-size: 10px;
+        font-weight: 400;
+        margin-right: 10px;
+    }
+    /* home page venom section css end  */
+    /* home page Blog section css start  */
+    #blog .blog_img {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    #blog .blog_img img {
+        width: 300px;
+    }
+    #blog .blog_game .blog_game_content {
+        margin-top: 20px;
+        border-right: none;
+        padding-right: 0;
+    }
+    #blog .blog_game .blog_game_content h2 {
+        font-size: 18px;
+        margin-bottom: 15px;
+        line-height: 1.5;
+    }
+    #blog .blog_game .blog_game_content p {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+    #blog .blog_game .blog_game_img {
+        margin-right: 0px;
+        display: none;
+    }
+    #blog .blog_game {
+        // margin-bottom: 80px;
+        padding: 20px;
+    }
+    #blog .blog_artical {
+        margin-top: -80px;
+        padding: 20px;
+    }
+    #blog .blog_news {
+        margin-bottom: 30px;
+        width: 180px;
+    }
+    #blog .blog_news .overlay p {
+        font-size: 12px;
+    }
+    #blog .load {
+        margin-bottom: 50px;
+    }
+    #blog .load a {
+        padding: 10px 15px;
+        font-size: 11px;
+    }
+    /* home page Blog section css end  */
+    /* home page Footer section css start  */
+    footer .footer_info{
+        margin-left: -50px;
+    }
+    footer .footer_info img{
+        width: 120px;
+    }
+    footer .footer_info p {
+        margin-top: 20px;
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    footer .footer_info .partner .star {
+        margin-bottom: 20px;
+    }
+    footer .footer_info .partner .star i {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 18px;
+    }
+    footer .footer_info .social_link a {
+        font-size: 25px;
+    }
+    footer .footer_menu {
+        margin-left: -50px;
+        margin-top: 50px;
+    }
+    footer .footer_menu h6 {
+        margin-bottom: 20px;
+    }
+    footer .footer_menu ul {
+        margin-right: 30px;
+    }
+    footer .footer_menu ul li a {
+        font-size: 13px;
+    }
+    footer .footer_others{
+        margin-left: -50px;
+        margin-top: 50px;
+    }
+    /* home page Footer section css end  */
 
     /* home page section css start  */
 }
