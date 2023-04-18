@@ -1,46 +1,116 @@
 
 
 
-/* My List  section css start  */
-#my_list{
-    margin-top: 70px;
-    .my_list_blog{
-        .my_list_blog_item{
-            width: 220px;
-            margin-bottom: 40px;
-            // margin-right: 38px;
-            .my_list_blog_item_img{
-                width: 196px;
-                height: 196px;
-            }
-            .my_list_blog_item_body{
-                h6{
-                    font-size: 13px;
-                    color: #fff;
-                    font-weight: 400;
-                    margin-bottom: 17px;
+/* My List header  section css start  */
+#list_header{
+    background: url(../img/banner_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 767px;
+    #nav{
+        padding-top: 36px;
+        position: relative;
+        .nav_btn{
+            color: #f10e1f;
+        }
+        ul{
+            margin-left: 90px;
+            li a{
+                font-size: 14px;
+                font-weight: 300;
+                color: #fff;
+                padding-right: 18px;
+                text-transform: capitalize;
+                transition: 0.3s;
+                &:hover{
+                    color: #75101c;
                 }
-                .rating{
-                    span{
-                        font-size: 14px;
-                        font-weight: 400;
-                        color: #4c4c4c;
+            }
+        }
+        .search_form{
+            position: relative;
+            .search{
+                position: relative;
+                input{
+                    background: transparent;
+                    outline: none;
+                    border: none;
+                    border-bottom: 2px solid #75101c;
+                    position: absolute;
+                    top: 7px;
+                    left: -227px;
+                    &::placeholder{
+                        color: #75101c;
+                        font-weight: 600;
                     }
-                    .font{
-                        margin-top: 5px;
-                        .i_1{
+
+                }
+                a{
+                    i{
+                        position: absolute;
+                        top: 15px;
+                        right: 50px;
+                        color: #75101c;
+                    }
+                }
+            }
+            a{
+                margin: 0 20px;
+                font-size: 14px;
+                font-weight: 400;
+                color: #fff;
+                text-transform: capitalize;
+                &.bot{
+                    margin-top: 12px;
+                }
+                &.a_active{
+                    padding: 13px 20px;
+                    background: #f10e1f;
+                    border-radius: 50px;
+                }
+            }
+        }
+    }
+    #my_list{
+        margin-top: 70px;
+        .my_list_blog{
+            .my_list_blog_item{
+                width: 220px;
+                margin-bottom: 40px;
+                // margin-right: 38px;
+                .my_list_blog_item_img{
+                    width: 196px;
+                    height: 196px;
+                }
+                .my_list_blog_item_body{
+                    h6{
+                        font-size: 13px;
+                        color: #fff;
+                        font-weight: 400;
+                        margin-bottom: 17px;
+                    }
+                    .rating{
+                        span{
+                            font-size: 14px;
+                            font-weight: 400;
                             color: #4c4c4c;
-                            font-size: 10px;
-                            margin-right: 20px;
-                            transition: 0.3s;
-                             &:hover{
-                                color: #f4dd1e;
-                             }
                         }
-                        .rat{
-                             margin-top: -5px;
-                             font-size: 12px;
-                             color: #f4dd1e;
+                        .font{
+                            margin-top: 5px;
+                            .i_1{
+                                color: #4c4c4c;
+                                font-size: 10px;
+                                margin-right: 20px;
+                                transition: 0.3s;
+                                 &:hover{
+                                    color: #f4dd1e;
+                                 }
+                            }
+                            .rat{
+                                 margin-top: -5px;
+                                 font-size: 12px;
+                                 color: #f4dd1e;
+                            }
                         }
                     }
                 }
@@ -48,7 +118,7 @@
         }
     }
 }
-/* My List  section css end  */
+/* My List header  section css end  */
 /* My List Footer section css start  */
 .list_footer{
     margin-top: -2px;
