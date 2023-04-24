@@ -570,6 +570,14 @@
     width: 237px;
     height: 356px;
   }
+  #movie_blog .movie_blog_news .movie_blog_news_item .overlay {
+    position: absolute;
+    width: 214px;
+    bottom: 32px;
+  }
+  #movie_blog .bottom {
+    margin-top: 60px;
+  }
   /* Movie page Movie Blog section css end  */
   /* Movie page section css end  */
 }
@@ -985,6 +993,100 @@
   }
   /* My List page Footer section css end  */
   /* My List page section css end  */
+  /* Movie page section css start  */
+  /* Movie page header section css start  */
+  #movie_header {
+    height: 550px;
+  }
+  #movie_header #nav .nav_btn {
+    background: #f10e1f;
+    color: #fff;
+    width: 40px;
+  }
+  #movie_header #nav .nav_btn span i {
+    margin-top: 5px;
+    margin-left: -15px;
+  }
+  #movie_header #nav ul {
+    margin-top: 25px;
+  }
+  #movie_header #nav ul li a {
+    margin-bottom: 15px;
+  }
+  #movie_header #nav .search_form a.a_active {
+    padding: 10px 15px;
+  }
+  #movie_header #nav .search_form a {
+    font-size: 13px;
+  }
+  #movie_header #nav .search_form .search input {
+    display: none;
+  }
+  #movie_header #nav .search_form .search a i {
+    right: -230px;
+    color: #fff;
+  }
+  /* Movie page header section css end  */
+  /* Movie page movie content section css start  */
+  #movie_header #movie_content {
+    margin-top: 40px;
+  }
+  #movie_header #movie_content .movie_content_img {
+    margin-left: -30px;
+  }
+  #movie_header #movie_content .movie_content_text {
+    margin-left: 0px;
+  }
+  #movie_header #movie_content .movie_content_text h3 {
+    font-size: 34px;
+    margin-top: 5px;
+    margin-bottom: 18px;
+  }
+  #movie_header #movie_content .movie_content_text .movie_info p {
+    width: 500px;
+  }
+  #movie_header #movie_content .movie_content_btn {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  /* Movie page movie content section css end  */
+  /* Movie page movie Blog section css start  */
+  #movie_blog .movie_blog_box {
+    margin-top: 520px;
+    margin-bottom: 50px;
+  }
+  #movie_blog .movie_blog_video img {
+    width: 510px;
+  }
+  #movie_blog .movie_blog_video a i {
+    width: 61px;
+    height: 40px;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  #movie_blog .movie_blog_video a {
+    top: 52%;
+    right: 35%;
+  }
+  #movie_blog .movie_blog_news {
+    margin-top: 80px;
+  }
+  #movie_blog .movie_blog_news .movie_blog_news_item {
+    width: 180px;
+    height: 269px;
+  }
+  #movie_blog .movie_blog_news .movie_blog_news_item .overlay {
+    width: 156px;
+    bottom: 32px;
+  }
+  #movie_blog .movie_blog_news .movie_blog_news_item .overlay p {
+    font-size: 12px;
+  }
+  #movie_blog .bottom {
+    margin-top: 40px;
+  }
+  /* Movie page movie Blog section css end  */
+  /* Movie page section css end  */
 }
 @media (min-width: 360px) and (max-width: 575.98px) {
   /* home page section css start  */
@@ -1338,7 +1440,7 @@
   }
   /* home page Footer section css end  */
   /* home page section css end  */
-  /* home page section css start  */
+  /* My List page section css start  */
   /* My List page My List Blog section css start  */
   #list_header {
     height: 1060px;
@@ -1381,5 +1483,102 @@
     margin-top: -3px;
   }
   /* My List page My List Blog section css end  */
-  /* home page section css end  */
+  /* My List page section css end  */
+  /* Movie page section css start  */
+  /* Movie page header section css start  */
+  #movie_header {
+    height: 720px;
+  }
+  #movie_header #nav .nav_btn {
+    color: #fff;
+    width: 30px;
+    height: 30px;
+  }
+  #movie_header #nav .nav_btn span i {
+    margin-left: -25px;
+    border: none;
+  }
+  #movie_header #nav ul {
+    margin-top: 25px;
+    margin-left: 15px;
+  }
+  #movie_header #nav ul li a {
+    margin-bottom: 15px;
+  }
+  #movie_header #nav .search_form .search {
+    display: none;
+  }
+  /* Movie page header section css end  */
+  /* Movie page movie content section css start  */
+  #movie_header #movie_content .movie_content_img img {
+    display: none;
+  }
+  #movie_header #movie_content {
+    margin-top: 40px;
+  }
+  #movie_header #movie_content .movie_content_text {
+    margin-left: 0px;
+  }
+  #movie_header #movie_content .movie_content_text h3 {
+    font-size: 26px;
+    margin-top: 0px;
+    margin-bottom: 18px;
+  }
+  #movie_header #movie_content .movie_content_text .movie_info p {
+    width: 330px;
+  }
+  #movie_header #movie_content .movie_content_btn {
+    margin-top: 25px;
+  }
+  #movie_header #movie_content .movie_content_btn a {
+    padding: 10px 12px;
+    font-size: 11px;
+    word-spacing: 2px;
+    margin-bottom: 10px;
+  }
+  #movie_header #movie_content .movie_content_btn .ratting .star {
+    margin-left: 5px;
+  }
+  #movie_header #movie_content .movie_content_btn .ratting .star i {
+    font-size: 13px;
+  }
+  /* Movie page movie content section css end  */
+  /* Movie page movie blog video section css start  */
+  #movie_blog .movie_blog_video {
+    margin-top: 50px;
+  }
+  #movie_blog .movie_blog_video img {
+    width: 335px;
+  }
+  #movie_blog .movie_blog_video a {
+    top: 54%;
+    right: 28%;
+  }
+  #movie_blog .movie_blog_video a i {
+    width: 60px;
+    height: 40px;
+    font-size: 17px;
+    line-height: 40px;
+  }
+  /* Movie page movie blog video section css end  */
+  /* Movie page movie blog news section css start  */
+  #movie_blog .movie_blog_news {
+    margin-top: 60px;
+  }
+  #movie_blog .movie_blog_news .movie_blog_news_item {
+    width: 180px;
+    height: 269px;
+  }
+  #movie_blog .movie_blog_news .movie_blog_news_item .overlay {
+    width: 156px;
+    bottom: 31px;
+  }
+  #movie_blog .movie_blog_news .movie_blog_news_item .overlay p {
+    font-size: 12px;
+  }
+  #movie_blog .bottom {
+    margin-top: 40px;
+  }
+  /* Movie page movie blog news section css end  */
+  /* Movie page section css end  */
 }/*# sourceMappingURL=responsive.css.map */

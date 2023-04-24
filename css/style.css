@@ -1214,7 +1214,10 @@ footer .footer_others ul li a:hover {
   position: relative;
   margin-top: 100px;
 }
-#movie_blog .movie_blog_news .overlay {
+#movie_blog .movie_blog_news .movie_blog_news_item {
+  position: relative;
+}
+#movie_blog .movie_blog_news .movie_blog_news_item .overlay {
   position: absolute;
   width: 261px;
   bottom: 0px;
@@ -1222,7 +1225,7 @@ footer .footer_others ul li a:hover {
   margin-right: 12px;
   padding: 20px 9px;
 }
-#movie_blog .movie_blog_news .overlay p {
+#movie_blog .movie_blog_news .movie_blog_news_item .overlay p {
   font-size: 13px;
   font-weight: 500;
   color: #fff;

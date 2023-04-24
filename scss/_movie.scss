@@ -199,18 +199,21 @@
     .movie_blog_news{
         position: relative;
         margin-top: 100px;
-        .overlay{
-            position: absolute;
-            width: 261px;
-            bottom: 0px;
-            background: rgba(0,0,0,0.70);
-            margin-right: 12px;
-            padding: 20px 9px;
-            p{
-                font-size: 13px;
-                font-weight: 500;
-                color: #fff;
-                line-height: 1.6;
+        .movie_blog_news_item{
+            position: relative;
+            .overlay{
+                position: absolute;
+                width: 261px;
+                bottom: 0px;
+                background: rgba(0,0,0,0.70);
+                margin-right: 12px;
+                padding: 20px 9px;
+                p{
+                    font-size: 13px;
+                    font-weight: 500;
+                    color: #fff;
+                    line-height: 1.6;
+                }
             }
         }
     }
