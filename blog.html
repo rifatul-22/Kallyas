@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="css/slick.css">
     <!-- main css link  -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- Responsive css link  -->
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 <body>
     <!-- header banner section start  -->
@@ -28,9 +30,9 @@
                <div class="logo">
                   <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
                </div>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+               <button class="navbar-toggler nav_btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
@@ -53,7 +55,7 @@
                 <form class="d-flex search_form">
                   <div class="search">
                      <input type="text" placeholder="Search">
-                     <i class="fa-solid fa-magnifying-glass"></i>
+                     <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
                   </div>
                   <a href="#" class="bot">login</a>
                   <a href="#" class="a_active">sign up</a>
@@ -65,78 +67,80 @@
        <section id="blog_page">
          <div class="container">
             <div class="row">
-               <div class="col-lg-2 blog_page_categories">
-                   <div class="input">
-                       <input type="text" placeholder="SEARCH...">
-                       <i class="fa-solid fa-magnifying-glass"></i>
-                   </div>
-                   <div class="categories">
-                       <p>CATEGORIES</p>
+               <div class="col-lg-2">
+                  <div class="blog_page_categories">
+                     <div class="input">
+                        <input type="text" placeholder="SEARCH...">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                     </div>
+                     <div class="categories">
+                        <p>CATEGORIES</p>
+                        <ul>
+                           <li><a href="#"><img src="img/blog_page_shape.png" alt="">Movies</a></li>
+                           <li><a href="#"><img src="img/blog_page_shape.png" alt="">Serials</a></li>
+                           <li><a href="#"><img src="img/blog_page_shape.png" alt="">Favorites</a></li>
+                           <li><a href="#"><img src="img/blog_page_shape.png" alt="">Images</a></li>
+                           <li><a href="#"><img src="img/blog_page_shape.png" alt="">Videos</a></li>
+                        </ul>
+                     </div>
+                     <div class="recent_post">
+                       <p class="title">RECENT POSTS</p>
+                       <div class="recent_blog">
+                           <div class="recent_blog_item d-flex">
+                               <div class="recent_blog_img">
+                                   <img src="img/recent_img_1.png" alt="">
+                               </div>
+                               <div class="recent_blog_content">
+                                   <p>Lorem ipsum dolor sit amet,</p>
+                                   <span>Sed do eiusmod tempe incididunt ut labore et dolore</span>
+                               </div>
+                           </div>
+                           <div class="recent_blog_item d-flex">
+                               <div class="recent_blog_img">
+                                   <img src="img/recent_img_1.png" alt="">
+                               </div>
+                               <div class="recent_blog_content">
+                                   <p>Lorem ipsum dolor sit amet,</p>
+                                   <span>Sed do eiusmod tempe incididunt ut labore et dolore</span>
+                               </div>
+                           </div>
+                           <div class="recent_blog_item d-flex">
+                               <div class="recent_blog_img">
+                                   <img src="img/recent_img_1.png" alt="">
+                               </div>
+                               <div class="recent_blog_content">
+                                   <p>Lorem ipsum dolor sit amet,</p>
+                                   <span>Sed do eiusmod tempe incididunt ut labore et dolore</span>
+                               </div>
+                           </div>
+                           <div class="recent_blog_item d-flex">
+                               <div class="recent_blog_img">
+                                   <img src="img/recent_img_1.png" alt="">
+                               </div>
+                               <div class="recent_blog_content">
+                                   <p>Lorem ipsum dolor sit amet,</p>
+                                   <span>Sed do eiusmod tempe incididunt ut labore et dolore</span>
+                               </div>
+                           </div>
+                       </div>
+                     </div>
+                     <div class="archives">
+                       <p>ARCHIVES</p>
                        <ul>
-                          <li><a href="#"><img src="img/blog_page_shape.png" alt="">Movies</a></li>
-                          <li><a href="#"><img src="img/blog_page_shape.png" alt="">Serials</a></li>
-                          <li><a href="#"><img src="img/blog_page_shape.png" alt="">Favorites</a></li>
-                          <li><a href="#"><img src="img/blog_page_shape.png" alt="">Images</a></li>
-                          <li><a href="#"><img src="img/blog_page_shape.png" alt="">Videos</a></li>
-                       </ul>
-                   </div>
-                   <div class="recent_post">
-                      <p class="title">RECENT POSTS</p>
-                      <div class="recent_blog">
-                          <div class="recent_blog_item d-flex">
-                              <div class="recent_blog_img">
-                                  <img src="img/recent_img_1.png" alt="">
-                              </div>
-                              <div class="recent_blog_content">
-                                  <p>Lorem ipsum dolor sit amet,</p>
-                                  <span>Sed do eiusmod tempe incididunt ut labore et dolore</span>
-                              </div>
-                          </div>
-                          <div class="recent_blog_item d-flex">
-                              <div class="recent_blog_img">
-                                  <img src="img/recent_img_1.png" alt="">
-                              </div>
-                              <div class="recent_blog_content">
-                                  <p>Lorem ipsum dolor sit amet,</p>
-                                  <span>Sed do eiusmod tempe incididunt ut labore et dolore</span>
-                              </div>
-                          </div>
-                          <div class="recent_blog_item d-flex">
-                              <div class="recent_blog_img">
-                                  <img src="img/recent_img_1.png" alt="">
-                              </div>
-                              <div class="recent_blog_content">
-                                  <p>Lorem ipsum dolor sit amet,</p>
-                                  <span>Sed do eiusmod tempe incididunt ut labore et dolore</span>
-                              </div>
-                          </div>
-                          <div class="recent_blog_item d-flex">
-                              <div class="recent_blog_img">
-                                  <img src="img/recent_img_1.png" alt="">
-                              </div>
-                              <div class="recent_blog_content">
-                                  <p>Lorem ipsum dolor sit amet,</p>
-                                  <span>Sed do eiusmod tempe incididunt ut labore et dolore</span>
-                              </div>
-                          </div>
-                      </div>
-                   </div>
-                   <div class="archives">
-                      <p>ARCHIVES</p>
-                      <ul>
-                        <li><a href="#"><img src="img/blog_page_shape.png" alt="">April 2017</a></li>
-                        <li><a href="#"><img src="img/blog_page_shape.png" alt="">June 2018</a></li>
-                        <li><a href="#"><img src="img/blog_page_shape.png" alt="">March 2019</a></li>
-                     </ul>
-                   </div>
-                   <div class="meta">
-                      <p>META</p>
-                      <ul>
-                        <li><a href="#"><img src="img/blog_page_shape.png" alt="">Log In</a></li>
-                        <li><a href="#"><img src="img/blog_page_shape.png" alt="">Comments RSS</a></li>
-                        <li><a href="#"><img src="img/blog_page_shape.png" alt="">WordPress.org</a></li>
-                     </ul>
-                   </div>
+                         <li><a href="#"><img src="img/blog_page_shape.png" alt="">April 2017</a></li>
+                         <li><a href="#"><img src="img/blog_page_shape.png" alt="">June 2018</a></li>
+                         <li><a href="#"><img src="img/blog_page_shape.png" alt="">March 2019</a></li>
+                      </ul>
+                     </div>
+                     <div class="meta">
+                       <p>META</p>
+                       <ul>
+                         <li><a href="#"><img src="img/blog_page_shape.png" alt="">Log In</a></li>
+                         <li><a href="#"><img src="img/blog_page_shape.png" alt="">Comments RSS</a></li>
+                         <li><a href="#"><img src="img/blog_page_shape.png" alt="">WordPress.org</a></li>
+                      </ul>
+                     </div>
+                  </div>
                </div>
                <div class="col-lg-8 blog_page_game">
                    <div class="blog_page_game_item d-flex">

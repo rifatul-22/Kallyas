@@ -889,6 +889,122 @@ footer .footer_others ul li a:hover {
 #blog_page .blog_page_categories .meta ul li a img {
   margin-right: 15px;
 }
+#blog_page .slide_offcanvas {
+  background: #020d18;
+}
+#blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .input {
+  position: relative;
+  margin-bottom: 30px;
+}
+#blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .input input {
+  height: 50px;
+  background: transparent;
+  border: 1px solid #fff;
+  padding-left: 20px;
+  color: #fff;
+  outline: none;
+  width: 214px;
+}
+#blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .input i {
+  position: absolute;
+  top: 16px;
+  right: -35px;
+  color: #fff;
+  border-left: 2px solid #fff;
+  padding-left: 12px;
+}
+#blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .categories p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 20px;
+  width: 214px;
+}
+#blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .categories ul {
+  margin-top: 30px;
+}
+#blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .categories ul li {
+  margin-bottom: 25px;
+}
+#blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .categories ul li a {
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+#blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .categories ul li a:hover {
+  color: #f10e1f;
+}
+#blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .categories ul li a img {
+  margin-right: 15px;
+}
+#blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .recent_post .title {
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 20px;
+  width: 214px;
+  margin-top: 35px;
+}
+#blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .recent_post .recent_blog .recent_blog_item {
+  width: 214px;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 30px;
+  margin: 30px 0;
+}
+#blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .recent_post .recent_blog .recent_blog_item:last-child {
+  border-bottom: none;
+}
+#blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .recent_post .recent_blog .recent_blog_item .recent_blog_img {
+  margin-right: 15px;
+}
+#blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .recent_post .recent_blog .recent_blog_item .recent_blog_content p {
+  font-size: 15px;
+  font-weight: 300;
+  color: #fff;
+}
+#blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .recent_post .recent_blog .recent_blog_item .recent_blog_content span {
+  font-size: 14px;
+  font-weight: 300;
+  color: #909090;
+}
+#blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .archives p,
+#blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .meta p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 20px;
+  width: 214px;
+  margin-top: 35px;
+}
+#blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .archives ul,
+#blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .meta ul {
+  margin-top: 30px;
+}
+#blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .archives ul li,
+#blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .meta ul li {
+  margin-bottom: 25px;
+}
+#blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .archives ul li a,
+#blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .meta ul li a {
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+#blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .archives ul li a:hover,
+#blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .meta ul li a:hover {
+  color: #f10e1f;
+}
+#blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .archives ul li a img,
+#blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .meta ul li a img {
+  margin-right: 15px;
+}
 #blog_page .blog_page_game {
   margin-left: 100px;
   margin-top: 60px;

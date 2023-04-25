@@ -277,8 +277,66 @@
         line-height: 1.5;
     }
     /* Movie page Movie Blog News section css end  */
-
     /* Movie page section css end  */
+    /* Artical page section css start  */
+    /* Artical page header section css start  */
+    #header {
+        height: 680px;
+    }
+    /* Artical page header section css end  */
+    /* Artical page blog categories section css start  */
+    #blog_page .blog_page_categories {
+        display: none;
+    }
+    #blog_page .slide_btn{
+        margin-top: 80px;
+        background: #020d18;
+        border: none;
+    }
+    #blog_page .offcanvas-header {
+        padding: 40px 0px;
+        margin-left: 320px;
+    }
+    #blog_page .offcanvas-header .off_head_btn i{
+        color: #fff;
+        font-size: 35px;
+    }
+    #blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .input i {
+        right: 0px;
+    }
+    #blog_page .artical_img {
+        margin-left: -100px;
+    }
+    #blog_page .artical_img .title {
+        font-size: 30px;
+        margin-top: 32px;
+        margin-bottom: 15px;
+    }
+    /* Artical page blog categories section css end  */
+    /* Artical page Artical thum section css start  */
+    #artical_thum .artical_text {
+        margin-left: -30px;
+        margin-top: 10px;
+    }
+    #artical_thum .artical_text p {
+        margin-bottom: 20px;
+    }
+    #artical_thum .artical_text .share span {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    #artical_thum .artical_text .share .social_link a {
+        margin-bottom: 40px;
+    }
+    #artical_thum .artical_text .artical_blog {
+        margin-top: 60px;
+        margin-bottom: 200px;
+    }
+    #artical_thum .artical_text .artical_blog .artical_blog_item .artical_blog_img a img {
+        margin-top: 20px;
+    }
+    /* Artical page Artical thum section css end  */
+    /* Artical page section css end  */
 
 }
 
@@ -590,6 +648,82 @@
     }
     /* Movie page Movie Blog section css end  */
     /* Movie page section css end  */
+    /* Artical page section css start  */
+    /* Artical page header section css start  */
+    #header {
+        height: 680px;
+    }
+    /* Artical page header section css end  */
+    /* Artical page Blog section css start  */
+    #blog_page .blog_page_categories {
+        display: none;
+    }
+    #blog_page .slide_btn{
+        margin-top: 50px;
+        background: #020d18;
+        border: none;
+    }
+    .offcanvas-header .btn-close {
+        margin-right: 18.5rem;
+    }
+    #blog_page .slide_offcanvas {
+        width: 350px;
+    }
+    #blog_page .offcanvas-header {
+        padding: 40px 0px;
+        margin-left: 320px;
+    }
+    #blog_page .offcanvas-header .off_head_btn i{
+        color: #fff;
+        font-size: 35px;
+        margin-left: -50px;
+    }
+    #blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .input i {
+        right: 0px;
+    }
+    #blog_page .artical_img {
+        margin-top: 0px;
+    }
+    #blog_page .artical_img img {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    #blog_page .artical_img .title {
+        font-size: 28px;
+        margin-top: 18px;
+        margin-left: 0px;
+        margin-bottom: 8px;
+    }
+    #blog_page .artical_img .react {
+        margin-left: 0px;
+    }
+    /* Artical page Blog section css end  */
+    /* Artical page Artical Thum section css start  */
+    #artical_thum .artical_text {
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    #artical_thum .artical_text p {
+        margin-bottom: 20px;
+    }
+    #artical_thum .artical_text .share span {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    #artical_thum .artical_text .share .social_link a {
+        margin-right: 15px;
+        margin-bottom: 20px;
+    }
+    #artical_thum .artical_text .artical_blog {
+        margin-top: 30px;
+        margin-bottom: 120px;
+    }
+    #artical_thum .artical_text .artical_blog .artical_blog_item .artical_blog_text h6 {
+        font-size: 12px;
+        margin-top: 0px;
+    }
+    /* Artical page Artical Thum section css end  */
+    /* Artical page section css start  */
 }
 
 @media (min-width: 576px) and (max-width: 767.98px){
@@ -1099,6 +1233,91 @@
     }
     /* Movie page movie Blog section css end  */
     /* Movie page section css end  */
+
+    /* Artical page section css start  */
+    /* Artical page header section css start  */
+    #header {
+        height: 580px;
+    }
+    /* Artical page header section css end  */
+    /* Artical page Blog Categories section css start  */
+    #blog_page .blog_page_categories {
+        display: none;
+    }
+    #blog_page .slide_btn{
+        margin-top: 35px;
+        background: #020d18;
+        border: none;
+    }
+    .offcanvas-header .btn-close {
+        margin-left: -50px;
+    }
+    #blog_page .slide_offcanvas {
+        width: 300px;
+    }
+    #blog_page .offcanvas-header {
+        padding: 40px 0px;
+        margin-left: 320px;
+    }
+    #blog_page .offcanvas-header .off_head_btn i{
+        color: #fff;
+        font-size: 35px;
+        margin-left: -50px;
+    }
+    #blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .input i {
+        right: 10px;
+        top: 13px;
+    }
+    #blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .input input {
+        height: 40px;
+        padding-left: 15px;
+        width: 180px;
+    }
+    #blog_page .artical_img img {
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+    #blog_page .artical_img .title {
+        font-size: 22px;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+    #blog_page .artical_img .react {
+        margin-left: 0px;
+    }
+    /* Artical page Blog Categories section css end  */
+    /* Artical page artical thum section css start  */
+    #artical_thum .artical_text {
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    #artical_thum .artical_text p {
+        margin-bottom: 20px;
+    }
+    #artical_thum .artical_text .share span {
+        margin-top: 20px;
+    }
+    #artical_thum .artical_text .share .social_link a {
+        margin-right: 15px;
+        margin-bottom: 20px;
+    }
+    #artical_thum .artical_text .artical_blog {
+        margin-top: 40px;
+        margin-bottom: 100px;
+    }
+    #artical_thum .artical_text .artical_blog .artical_blog_item {
+        margin-right: 0px;
+    }
+    #artical_thum .artical_text .artical_blog .artical_blog_item .artical_blog_text h6 {
+        font-size: 13px;
+        margin-top: 0px;
+    }
+    #artical_thum .artical_text .artical_blog .artical_blog_item .artical_blog_img {
+        margin-right: 11px;
+    }
+    /* Artical page artical thum section css end  */
+    /* Artical page section css end  */
 }
 
 @media (min-width: 360px) and  (max-width: 575.98px){
@@ -1596,9 +1815,106 @@
     }
     /* Movie page movie blog news section css end  */
     /* Movie page section css end  */
+
+    /* Artical page section css start  */
+    /* Artical page header section css start  */
+    /* Artical page header section css end  */
+    /* Artical page blog page categories section css start  */
+    #blog_page .blog_page_categories {
+        display: none;
+    }
+    #blog_page .slide_btn{
+        margin-top: 35px;
+        background: #020d18;
+        border: none;
+    }
+    .offcanvas-header .btn-close {
+        margin-left: -115px;
+    }
+    #blog_page .slide_offcanvas {
+        width: 240px;
+    }
+    #blog_page .offcanvas-header {
+        padding: 40px 0px;
+        margin-left: 320px;
+    }
+    #blog_page .offcanvas-header .off_head_btn i{
+        color: #fff;
+        font-size: 35px;
+        margin-left: -50px;
+    }
+    #blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .input i {
+        right: 10px;
+        top: 13px;
+    }
+    #blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .input input {
+        height: 40px;
+        padding-left: 10px;
+        width: 140px;
+    }
+    #blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .categories p {
+        width: 170px;
+    }
+    #blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .recent_post .title {
+        width: 170px;
+    }
+    #blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .recent_post .recent_blog .recent_blog_item .recent_blog_img {
+        margin-right: 12px;
+    }
+    #blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .recent_post .recent_blog .recent_blog_item .recent_blog_content p {
+        font-size: 14px;
+    }
+    #blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .recent_post .recent_blog .recent_blog_item .recent_blog_content span {
+        font-size: 13px;
+    }
+    #blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .recent_post .recent_blog .recent_blog_item {
+        width: 200px;
+    }
+    #blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .archives p, #blog_page .slide_offcanvas .offcanvas-body .blog_page_categories_2 .meta p {
+        width: 170px;
+        margin-top: 30px;
+    }
+    #blog_page .artical_img img {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    #blog_page .artical_img .title {
+        font-size: 19px;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-bottom: 14px;
+    }
+    #blog_page .artical_img .react {
+        margin-left: 0px;
+    }
+    /* Artical page blog page categories section css end  */
+    /* Artical page artical thum section css start  */
+    #artical_thum .artical_text {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    #artical_thum .artical_text p {
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+    #artical_thum .artical_text .share span {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    #artical_thum .artical_text .share .social_link a {
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+    #artical_thum .artical_text .artical_blog {
+        margin-top: 30px;
+        margin-bottom: 80px;
+    }
+    #artical_thum .artical_text .artical_blog .artical_blog_item {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    /* Artical page artical thum section css end  */
+    /* Artical page section css end  */
 }
-
-
 // @media (max-width: 575.98px){}
-
 // (min-width: 360px) and 
