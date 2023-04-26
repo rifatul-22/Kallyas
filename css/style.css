@@ -1105,7 +1105,8 @@ footer .footer_others ul li a:hover {
 #blog_thum .blog_page_game_blog .blog_news .blog_news_item {
   position: relative;
   margin-bottom: 110px;
-  margin-right: 30px;
+  margin-right: 20px;
+  width: 225px;
 }
 #blog_thum .blog_page_game_blog .blog_news .blog_news_item .overlay {
   position: absolute;
